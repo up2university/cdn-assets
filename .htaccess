@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^scripts/matomo.js$ /scripts/matomo-test.js [L,R=301]
