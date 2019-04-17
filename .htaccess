@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteRule ^scripts/matomo.js$ /scripts/matomo-test.js [L,R=301]
 
 # handle the Greek privacy notice under an additional URL
 RewriteRule ^docs/privacy-notice-el.pdf$ https://cdn.test.up2university.eu/docs/privacy-notice-gr.pdf [L,R=301]
