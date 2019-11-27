@@ -1,6 +1,6 @@
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["setDomains", ["*.learn.up2university.eu","*.cernbox.up2university.eu","*.eduoer.up2university.eu","*.lrs.up2university.eu","*.oc.up2university.eu","*.repo.up2university.eu","*.selcont.up2university.eu","*.swan.up2university.eu","*.vc.up2university.eu","*.cs.up2university.eu","*.poddium.eu","*.sso.up2university.eu","*.openedx-up2u.teltek.es","*.studio-up2u.teltek.es","*.meetings.up2university.eu"]]);
+  _paq.push(["setDomains", ["*.learn.up2university.eu","*.cernbox.up2university.eu","*.eduoer.up2university.eu","*.lrs.up2university.eu","*.oc.up2university.eu","*.repo.up2university.eu","*.selcont.up2university.eu","*.swan.up2university.eu","*.vc.up2university.eu","*.cs.up2university.eu","*.poddium.eu","*.sso.up2university.eu","*.openedx-up2u.teltek.es","*.studio-up2u.teltek.es","*.meetings.up2university.eu","*.commonspaces.eu"]]);
   _paq.push(["enableCrossDomainLinking"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
