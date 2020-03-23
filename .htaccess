@@ -7,3 +7,7 @@ RewriteRule ^docs/privacy-notice-el.pdf$ https://cdn.test.up2university.eu/docs/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^docs/privacy-notice-[a-z]+.pdf$ https://cdn.test.up2university.eu/docs/privacy-notice.pdf [L,R=302]
 
+# serve open-Up2U fair-use-policy.pdf also as terms.pdf
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^open/docs/terms.pdf$ /open/docs/fair-use-policy.pdf [L]
+
