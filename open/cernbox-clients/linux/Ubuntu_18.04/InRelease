@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Archive: Ubuntu_18.04
+Codename: Ubuntu_18.04
+Architectures: amd64
+Date: Sat Mar 21 18:03:01 2020
+Description: The ownCloud client repo (Ubuntu_18.04)
+MD5Sum:
+ 018a2c3b616e06fd9d3174fc7b25053c 65193 Packages
+ 46765cc0ca02bdc26c401e10ecd23fdf 19784 Packages.gz
+ 0733bc02f76dc1220b456bd338fd1098 3869 Sources
+ e26acf37c42232aef3d255110576400e 1372 Sources.gz
+SHA1:
+ 5d329cee9679a53e490325828dc1e1de4f9f9fd8 65193 Packages
+ c5080ec38a2479dfdeb39fba968e308ac7254583 19784 Packages.gz
+ 5e00382eabfb3b2dbd73c2c68e6610661dd9a008 3869 Sources
+ 072b6e243fd3703034a7af983fe089e6e7bc0b49 1372 Sources.gz
+SHA256:
+ fc492af5cc298f9b163e94889957f24b9cb0a7907229e195abcca6a0ef1bcc71 65193 Packages
+ 634453e9c3b23f2a17f1bb045cf20d864f36a6230706f50daad425e2ce2d5c6a 19784 Packages.gz
+ 79aca572f878faa89ffca6467252377b3e462a5486e2f48cffc7416926ac0125 3869 Sources
+ 217c32b145417f691fb1e3a60d1594558b009d14350d5f98d8e453fd80b58601 1372 Sources.gz
+Label: ownbrander:Qt5121:openuptwou
+Origin: obs://s2.owncloud.com/ownbrander:Qt5121:openuptwou/Ubuntu_18.04
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAEBCgAyFiEEJ1TTxv5bOXq6cHB27zmD/x0MJaAFAl52gQUUHG9lbUBzMi5v
+d25jbG91ZC5jb20ACgkQ7zmD/x0MJaCwwwgAhzzlc1ftvpft1avk/bnWxXDoW0wu
+1MaTRkdnvHurYk3vvKMI7l5Qhn85wfDcEqAUt7Hd3SKHbf3f8TVDn/JVb1qabguI
+TDChT+Fk8XSHPeZCdK6P0vuCqAbMyJeuX8domjUhZjFI/m9USY79bMGTejxBl8B5
+WrMbn2YdmXvUWelmk05XsPxaOUIcGGQB6VBOqdOs4K5pd82zCWVjDZsXUy0cwn5a
+fseDxve6Y0MX+UJn07744nwIsgrwJzzDGDmfZcwcB3T3kaTApel6T+IW6867cEOx
+21OLFZfgGP5GymZfjPFGwSriCDJTQb/1RmGoUtfOn0y6i5YONaQ4N6OFYA==
+=6aP+
+-----END PGP SIGNATURE-----

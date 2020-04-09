@@ -1,0 +1,7 @@
+[ownbrander_Qt5121_openuptwou]
+name=The ownCloud client repo (openSUSE_Leap_15.1)
+type=rpm-md
+baseurl=https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1
+gpgcheck=1
+gpgkey=https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1/repodata/repomd.xml.key
+enabled=1

@@ -1,0 +1,51 @@
+Format: 1.0
+Package: openup2u-client-overlays
+Binary: openup2u-client-overlays
+Architecture: any
+Version: 2.5.4+oc-2761
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake
+Directory: .
+Checksums-Sha1:
+ 7e09103accc87de0a741179df630a15f0dd3990f 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ c33e27ab6dc6e7f47b6298c55af5bf268c680d5f 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ f512711861ceead0891dac7cf0bc9601eeeb4213 3265 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+Checksums-Sha256:
+ d9ea6c1d035b197cd3ab9fe38db2b930a43f311c528db21455c2f754bcf3e023 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ 92dea71ab090c8124adec383f5a955c769b384e0df2283fdd0b957f8af5d3db4 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ 89fe09bbfa654c83723db5eb4b085b08afe0bf0499397bad23942f08a125d4c4 3265 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+Files:
+ 62c5eb7784ef2ca916760a5b376ea56c 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ fd3a5d09acc9e067bd9d3e0dea632134 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ 7014cbd124da3180724e90f9aecec2d4 3265 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+
+Format: 1.0
+Package: openup2u-client
+Binary: openup2u-client
+Architecture: any
+Version: 2.5.4+oc-2761
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake, sed, doxygen, unzip | bash,
+ libsqlite3-dev, python-sphinx | python3-sphinx, libssl-dev (>= 1.0.0), zlib1g-dev,
+ ocqt5121-qt5-qmake,
+ ocqt5121-qttools5-dev-tools,
+ ocqt5121-qtbase5-dev,
+ ocqt5121-qt5keychain-dev (>= 0.7.0),
+ ocqt5121-libqt5webkit5-dev (>= 2.2.0),
+ ocqt5121-qtsvg5
+Directory: .
+Checksums-Sha1:
+ bdb7d52cb77884a91e673f1f0057a70627382ab6 1320 openup2u-client_2.5.4+oc-2761.dsc
+ 4fb4e75929d7a6dad02665bad38d5deb64ab8207 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ cd480a048737a87debf689ccb8472de5bec9c4af 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+Checksums-Sha256:
+ 42b0e53472c299827897a060554269291bf68ab517b3c0960deba3516635af6d 1320 openup2u-client_2.5.4+oc-2761.dsc
+ a321d39778789acfc9022c9e317d7a36b6a2be483be1d5fde7be4c9ce3b75810 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ 06d593eecbb8cbab16ff15b15f091ec22782695a60177c58bd76f273ac118684 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+Files:
+ de22fdd62e9cbfabe25473ea86ab9a61 1320 openup2u-client_2.5.4+oc-2761.dsc
+ 64b13233eed3ea7d4a21ef8423bc22ba 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ 2ade4b7c8415c08fb07d4d00849c41fb 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+

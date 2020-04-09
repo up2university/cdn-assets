@@ -1,0 +1,1344 @@
+Package: libopenup2usync-dev
+Source: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: amd64
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 91
+Depends: libopenup2usync0 (= 2.5.4+oc-2761)
+Filename: ./amd64/libopenup2usync-dev_2.5.4+oc-2761_amd64.deb
+Size: 20112
+MD5sum: 6df19ae9d9ae127f0da3580e8b209387
+SHA1: fd3f67742e0c71831f3f8989d519466989adf1b5
+SHA256: b967dfccd57705020f58f832595a4065a2c8afb499d0e08404ffa6976ac92f69
+Section: devel
+Priority: optional
+Description: development files for the ownCloud sync library
+ ownCloud uses this as a sync engine implementation.
+ .
+ This package contains the development files.
+
+Package: libopenup2usync0
+Source: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: amd64
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 1617
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libsqlite3-0 (>= 3.12.0), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5keychain1, ocqt5121-libqt5network5, ocqt5121-libqt5widgets5, zlib1g (>= 1:1.1.4), ocqt5121-qtsvg5
+Breaks: libocsync0
+Replaces: libocsync0
+Filename: ./amd64/libopenup2usync0_2.5.4+oc-2761_amd64.deb
+Size: 475616
+MD5sum: 3119ccbbac5d585ee88c09e875a4c7a1
+SHA1: 1f82a81cb29a014834be0c711f5e2ed2da26ad6d
+SHA256: 11fc3bd8f8fb03f5afbe7a613740237160d19986a02e7ba62ac3134538ed8cad
+Section: devel
+Priority: optional
+Multi-Arch: same
+Description: the ownCloud sync library
+ ownCloud uses this as a sync engine implementation.
+ .
+ This package contains the library.
+
+Package: lintian-obs-permissive
+Version: 0.2-1+1.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 9
+Depends: lintian
+Filename: ./amd64/lintian-obs-permissive_0.2-1+1.1_amd64.deb
+Size: 1912
+MD5sum: 13e5c490d27a40c8d34747051ed6f8ef
+SHA1: fb48222086a10519fd1ed200b8ea80abd49d4f6f
+SHA256: b590538dd40e39e1978ea892e372fa28521b6d15770f9efaf5ec5399e1d86aa7
+Section: devel
+Priority: optional
+Multi-Arch: same
+Description: workaround for ineffective lintian overrides to survive
+ E: qt5-qtbase changes: bad-distribution-in-changes-file stable
+ .
+ Authors
+ =======
+ Juergen Weigert <jw@owncoud.com>
+
+Package: ocqt5121-libqt5clucene5
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 28
+Filename: ./amd64/ocqt5121-libqt5clucene5_5.12.1-1_amd64.deb
+Size: 11176
+MD5sum: 3a71188a38d6c2ca27f8c9f0901b5e62
+SHA1: 703794c615d6bff4384b15df05dd30acc483f05b
+SHA256: c3ff450eb1e119a48a13560e19c8b04a4627bf40523f327ce4c6cf1b2e6219be
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 CLucene module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes the CLucene module. CLucene is a high-performance,
+ scalable indexing and searching API.
+
+Package: ocqt5121-libqt5concurrent5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 136
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), ocqt5121-libqt5core5a
+Filename: ./amd64/ocqt5121-libqt5concurrent5_5.12.1-3+20.1_amd64.deb
+Size: 58744
+MD5sum: 1039e1be1dca464761dfb01026bdc841
+SHA1: 38b0e148583c8121bb650db1238dbe0a74edb7e9
+SHA256: 83f530d238e057b53cd60bc20133fba558c375ca89fa5296a58e7f1b4af87ad9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 concurrent module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtConcurrent module contains functionality to support concurrent execution
+ of program code.
+
+Package: ocqt5121-libqt5core5a
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 5880
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.4), libglib2.0-0 (>= 2.22.0), libicu60 (>= 60.1-1~), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Suggests: libthai0
+Provides: qtbase-abi-5-6-1
+Filename: ./amd64/ocqt5121-libqt5core5a_5.12.1-3+20.1_amd64.deb
+Size: 2126172
+MD5sum: eefeda1e3f9b05106db7c03cf9ff3727
+SHA1: 7459fc1d4afd6397dfbd0a92d28befb8e857f06c
+SHA256: 32cbf32527503a548f4f58b2d4a10f805a365bd9dccec4bbd08cc62144244834
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 core module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtCore module contains core non-GUI functionality.
+
+Package: ocqt5121-libqt5dbus5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 687
+Depends: libc6 (>= 2.14), libdbus-1-3 (>= 1.9.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a
+Filename: ./amd64/ocqt5121-libqt5dbus5_5.12.1-3+20.1_amd64.deb
+Size: 224944
+MD5sum: 732a386259451e834320898fba151ed6
+SHA1: 68b34dfda8ad0b092ae4bccffd783110385a74f4
+SHA256: eb9f6893d9b6b367f72f8e4649721e75fa52d3601416a3f1d3b11eb505ed42c7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 D-Bus module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDBus module is a Unix-only library that you can use to make Inter-Process
+ Communication using the D-Bus protocol.
+ .
+ Applications using the QtDBus module can provide services to other, remote
+ applications by exporting objects, as well as use services exported by those
+ applications by placing calls and accessing properties.
+
+Package: ocqt5121-libqt5designer5
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 5353
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5widgets5, ocqt5121-libqt5xml5
+Filename: ./amd64/ocqt5121-libqt5designer5_5.12.1-1_amd64.deb
+Size: 2748468
+MD5sum: 5438ba7ab008acce63c7ebb69b3adc73
+SHA1: 0157b0175eb90df03bd9eca0ca1fe0314d07ea89
+SHA256: 01b4c6a2fdd1964280056b72f88030f814bf24f2b50293d03bd0992decff38b3
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 designer module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDesigner module provides classes that allow you to create your own
+ custom widget plugins for Qt Designer, and classes that enable you to access
+ Qt Designer's components.
+
+Package: ocqt5121-libqt5designercomponents5
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 2676
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5designer5, ocqt5121-libqt5gui5, ocqt5121-libqt5widgets5, ocqt5121-libqt5xml5
+Filename: ./amd64/ocqt5121-libqt5designercomponents5_5.12.1-1_amd64.deb
+Size: 708344
+MD5sum: 77bdd9c6b4459bce8fe664832a8e2759
+SHA1: 3083f51b6db6074d645ab523d71a790535ff03b0
+SHA256: c7a8dff633a4d155d4c4820c3979116331a572f33a9c655cec93274d6f53a1e2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 Designer components module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes components for the Qt 5 Designer module.
+
+Package: ocqt5121-libqt5gui5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 8434
+Depends: fontconfig, libc6 (>= 2.14), libdrm2 (>= 2.4.62), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libgcc1 (>= 1:3.4), libglib2.0-0 (>= 2.12.0), libharfbuzz0b (>= 1.6.0), libice6 (>= 1:1.0.0), libjpeg8 (>= 8c), libmtdev1 (>= 1.0.8), libpng16-16 (>= 1.6.2-1), libsm6, libstdc++6 (>= 5), libudev1 (>= 183), libxcb1 (>= 1.8), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, ocqt5121-libqt5network5, zlib1g (>= 1:1.1.4)
+Recommends: ocqt5121-qtsvg5, mesa-utils
+Suggests: ocqt5121-libqt5libqgtk2
+Filename: ./amd64/ocqt5121-libqt5gui5_5.12.1-3+20.1_amd64.deb
+Size: 2387008
+MD5sum: 3ac05f9599645a457d45605771ae99e4
+SHA1: 932efbf5d1448097beee68680024f44afa6ca2c5
+SHA256: 15c7ef3a8955432dc38023b18b817e635eeececcd027f6b51bc95135653d2418
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 GUI module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtGui module extends QtCore with GUI functionality.
+
+Package: ocqt5121-libqt5help5
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 484
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5sql5, ocqt5121-libqt5widgets5
+Filename: ./amd64/ocqt5121-libqt5help5_5.12.1-1_amd64.deb
+Size: 130644
+MD5sum: 0a6963f63753cb19bee51918aadf3aa4
+SHA1: 6cbed73fd208119d8c4e3e87a4b65c07a44a8e63
+SHA256: d68197286a55c74330f202edcf1a4ed4abdf105e29068b9e04ee42e0c63278d1
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 help module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtHelp module provides classes for integrating online documentation in
+ applications.
+
+Package: ocqt5121-libqt5keychain1
+Source: ocqt5121-qt5keychain
+Version: 0.9.1-1+1.7
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 188
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.0), libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 4.1.1), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5
+Filename: ./amd64/ocqt5121-libqt5keychain1_0.9.1-1+1.7_amd64.deb
+Size: 48668
+MD5sum: e1e91fe8c399c372396dd5d09203e61c
+SHA1: 0ff3dc0608553db542d49a0ba6b2ec617b79c5be
+SHA256: b23752b0278d4cc5e7c81ddf64173d2eac1b9a99ac9f279203a3ce69db11af65
+Section: libs
+Priority: optional
+Description: Cross platform password store library
+ use qtkeychain to store passwords easy and secure on Linux, Windows and Mac.
+
+Package: ocqt5121-libqt5libqgtk2
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 100
+Depends: ocqt5121-libqt5gui5 (= 5.12.1-3+20.1)
+Filename: ./amd64/ocqt5121-libqt5libqgtk2_5.12.1-3+20.1_amd64.deb
+Size: 50032
+MD5sum: dedd23cb01854bebfedb87b0bd8aa9fd
+SHA1: 8193afe9334e841689529171d3e757b92e232717
+SHA256: 343d1bf58a0739742ef1e2140f02df1849c8cb10552ef9c78a85a302afe18e0d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 GTK2 platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package provides the GTK2 platform theme, which makes Qt use
+ native icon themes, fonts, and dialogs on GTK-based environments.
+
+Package: ocqt5121-libqt5network5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 1856
+Depends: libc6 (>= 2.14), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5), ocqt5121-libqt5core5a, zlib1g (>= 1:1.1.4)
+Filename: ./amd64/ocqt5121-libqt5network5_5.12.1-3+20.1_amd64.deb
+Size: 562756
+MD5sum: 927b142c44ee31d33b80b06a820a7cfa
+SHA1: b803b225231cf0605e675763e86f54595899d312
+SHA256: 4993409e09c2161856f51c1403c0aec8ab1983121b9780828593dc74a1f1e78c
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 network module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtNetwork module offers classes that allow you to write TCP/IP clients and
+ servers. It provides classes to make network programming easier and portable.
+
+Package: ocqt5121-libqt5printsupport5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 666
+Depends: libc6 (>= 2.14), libcups2 (>= 1.4.0), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5widgets5
+Filename: ./amd64/ocqt5121-libqt5printsupport5_5.12.1-3+20.1_amd64.deb
+Size: 214488
+MD5sum: c3245e339f1c3a958888a1847eb84eda
+SHA1: 5c02363ab7a637e917102ab56c42a77782f296c5
+SHA256: f80d4e47353e186991ee147ee35a8e5c9a3d1af2d7ce41496748ec6fdb1f9812
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 print support module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtPrintSupport module provides classes to make printing easier and
+ portable.
+
+Package: ocqt5121-libqt5sql5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 405
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a
+Recommends: ocqt5121-libqt5sql5-sqlite | ocqt5121-libqt5sql5-mysql | ocqt5121-libqt5sql5-odbc | ocqt5121-libqt5sql5-psql
+Filename: ./amd64/ocqt5121-libqt5sql5_5.12.1-3+20.1_amd64.deb
+Size: 142392
+MD5sum: 4270dd9c258f4ccba192f99d6bd4f5b6
+SHA1: 15e49ed93a0e28230fceb3eacad100cfcbfd6fa5
+SHA256: 675cfdf4af618907f6a9f30a8e4ea60b10a605c49855e9c947ac85622a4f901f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 SQL module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSql module helps you provide seamless database integration to your Qt
+ applications.
+
+Package: ocqt5121-libqt5sql5-mysql
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 185
+Depends: libc6 (>= 2.14), libmysqlclient20 (>= 5.7.11), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5sql5
+Filename: ./amd64/ocqt5121-libqt5sql5-mysql_5.12.1-3+20.1_amd64.deb
+Size: 73576
+MD5sum: 85e0367de802e7213b74f8ed4786c94f
+SHA1: 18dfaa82b0c5ae2f2d9b315100bb04c931e6eed2
+SHA256: b37046a87c888bded16fa34617e11d384c05ea87496f59c1a64906edac5b9bad
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 MySQL database driver
+ This package contains the MySQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MySQL DB.
+
+Package: ocqt5121-libqt5sql5-odbc
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 205
+Depends: libc6 (>= 2.14), libodbc1 (>= 2.3.1), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5sql5
+Filename: ./amd64/ocqt5121-libqt5sql5-odbc_5.12.1-3+20.1_amd64.deb
+Size: 81876
+MD5sum: f215970420e3dd1332bf66c9213c9306
+SHA1: fcf7a65e0f2b883e4212a055659b52763f179d0b
+SHA256: ea4370218ac3f837c9b7ca1494e3ab126634e17e9972b92d22eda82dcc5121db
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 ODBC database driver
+ This package contains the ODBC plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ ODBC DB.
+
+Package: ocqt5121-libqt5sql5-psql
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 197
+Depends: libc6 (>= 2.14), libpq5 (>= 9.2~beta3), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5sql5
+Filename: ./amd64/ocqt5121-libqt5sql5-psql_5.12.1-3+20.1_amd64.deb
+Size: 76732
+MD5sum: 41b536568591bb7be6bc544f903eadf7
+SHA1: 2742ff5ebd6bd1ece62678025658f515ed0161b8
+SHA256: ce87067d4dffbf9b72841cb5165aa4f6e8aa25284d51b19384ad13e2eae67392
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 PostgreSQL database driver
+ This package contains the PostgreSQL plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ PostgreSQL DB.
+
+Package: ocqt5121-libqt5sql5-sqlite
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 185
+Depends: libc6 (>= 2.14), libsqlite3-0 (>= 3.7.3), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5sql5
+Filename: ./amd64/ocqt5121-libqt5sql5-sqlite_5.12.1-3+20.1_amd64.deb
+Size: 73556
+MD5sum: 83eabbd6a00e3df59ae17ef1d959f95e
+SHA1: 4803020e6e6be910cb24be15883807f5baa51404
+SHA256: 18231a534206bfbe92ecd9f30699ce2c9f1d000c28d8ec945f92f22916a3d85f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 SQLite 3 database driver
+ This package contains the SQLite 3 plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access an
+ SQLite 3 DB.
+
+Package: ocqt5121-libqt5sql5-tds
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 168
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), libsybdb5 (>= 0.63), ocqt5121-libqt5core5a, ocqt5121-libqt5sql5
+Filename: ./amd64/ocqt5121-libqt5sql5-tds_5.12.1-3+20.1_amd64.deb
+Size: 68300
+MD5sum: d1a4f9de47d22d0d76a9f01683d83ea4
+SHA1: d5f57232c82292a866f252d896282651061104b8
+SHA256: c755fb2df4ebc54507909cf7d9a216fe3750418f83a6a4e4c5f327777d583248
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 FreeTDS database driver
+ This package contains the FreeTDS plugin for Qt 5.
+ .
+ Install it if you intend to use or write Qt programs that are to access a
+ MS SQL or Sybase SQL server.
+
+Package: ocqt5121-libqt5test5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 419
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5), ocqt5121-libqt5core5a
+Filename: ./amd64/ocqt5121-libqt5test5_5.12.1-3+20.1_amd64.deb
+Size: 154396
+MD5sum: b8b9c5c494eaa759388237b10064172a
+SHA1: e018e8dbfd0442a095f8c0d7812c3bd9724e8c18
+SHA256: e1d36ba594d52408bdcd41ba67d109e784a26807b539bfc0ab3fe4aea03a543d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 test module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtTest module provides classes for unit testing Qt applications and
+ libraries.
+
+Package: ocqt5121-libqt5webkit5
+Source: ocqt5121-qt5-qtwebkit
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 32580
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libc6 (>= 2.27), libicu60 (>= 60.1-1~), libjpeg8 (>= 8c), libpng16-16 (>= 1.6.2-1), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5network5, ocqt5121-libqt5printsupport5, ocqt5121-libqt5sql5, ocqt5121-libqt5widgets5, zlib1g (>= 1:1.2.0)
+Filename: ./amd64/ocqt5121-libqt5webkit5_5.12.1-1_amd64.deb
+Size: 7865736
+MD5sum: be520b48b09720165cca93deb24fbf36
+SHA1: 427337f1d2e90227602854ede80cea7da98f93be
+SHA256: 8181429f0e7fa05c5b6ad1a7e1f5088590a013f9915ba6e435527b292d14adc4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://trac.webkit.org/wiki/QtWebKit
+Description: Web content engine library for Qt
+ QtWebKit provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+
+Package: ocqt5121-libqt5webkit5-dbg
+Source: ocqt5121-qt5-qtwebkit
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 33082
+Depends: ocqt5121-libqt5webkit5 (= 5.12.1-1)
+Filename: ./amd64/ocqt5121-libqt5webkit5-dbg_5.12.1-1_amd64.deb
+Size: 26230876
+MD5sum: 6c110c13cefc2e22b6404dea104c6612
+SHA1: 60e2d071a79b30e077f532bee5fa2f752c8ef846
+SHA256: f35944e1e8520a4acd7f3d27fca03b5eb96cd7023ac439480e87a16c72e2238c
+Section: debug
+Priority: extra
+Homepage: http://trac.webkit.org/wiki/QtWebKit
+Description: Web content engine library for Qt - debugging symbols
+ QtWebKit provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the debugging symbols for the Qt WebKit library.
+Build-Ids: 09fade40687ff07196c025c17eaae04214e4bb67 6093001bede7547a13322e4075a833c45bdd0821
+
+Package: ocqt5121-libqt5webkit5-dev
+Source: ocqt5121-qt5-qtwebkit
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 777
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ocqt5121-qtbase5-dev (>= 5), ocqt5121-libqt5webkit5 (= 5.12.1-1), libxslt1-dev
+Filename: ./amd64/ocqt5121-libqt5webkit5-dev_5.12.1-1_amd64.deb
+Size: 94320
+MD5sum: 7c14b5e55b06c3278c3c2d645299ea61
+SHA1: 626fce99e59a06add7d05c96f667e9f7d60c0e86
+SHA256: cce85481d14434d2665aad3bbab0f8761d0838d5435a8bc3ceff7381bcea2e98
+Section: libdevel
+Priority: optional
+Homepage: http://trac.webkit.org/wiki/QtWebKit
+Description: Web content engine library for Qt - development files
+ QtWebKit provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the development files needed to build Qt 4 applications
+ using QtWebKit library.
+
+Package: ocqt5121-libqt5widgets5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 6646
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5
+Filename: ./amd64/ocqt5121-libqt5widgets5_5.12.1-3+20.1_amd64.deb
+Size: 2210608
+MD5sum: 1f9c0ba07c9605e838025b50efd388ec
+SHA1: b482ceea2959b4524f48cdd7b34cff150517e68b
+SHA256: 21d9fbdd99fb98f9c8cc05692a73bcb813472d860b593c5d9ee09d287a8bb3d7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 widgets module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtWidgets module extends QtGui with C++ widget functionality.
+
+Package: ocqt5121-libqt5xml5
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 353
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a
+Filename: ./amd64/ocqt5121-libqt5xml5_5.12.1-3+20.1_amd64.deb
+Size: 126320
+MD5sum: 82e4ead457f41dfb22ebfbe27bbd3c00
+SHA1: 0e03ef3213deda109254af0e9f540794cacc68a5
+SHA256: 4c24365fdabd2eb45c23eb670d94bae6044a7d9535abf86c9314a7cdbe73a74e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 XML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtXml module provides a stream reader and writer for XML documents,
+ and C++ implementations of SAX and DOM.
+
+Package: ocqt5121-qdbus-qt5
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 106
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, ocqt5121-libqt5xml5
+Filename: ./amd64/ocqt5121-qdbus-qt5_5.12.1-1_amd64.deb
+Size: 32848
+MD5sum: b316a81666109d382ce4c3f9bad601de
+SHA1: 179d7252a59c0ab24c46a63175903c020d61b357
+SHA256: 05582f52ca0b8ea927dfb18d8b56624c716eb1c97e249bcfbc292f870b5bc92a
+Section: utils
+Priority: optional
+Homepage: http://qt-project.org/
+Description: Qt 5 D-Bus tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qdbus, a command-line tool interface to D-Bus that uses
+ the QtDBus library.
+
+Package: ocqt5121-qt5-default
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 107
+Depends: ocqt5121-qtbase5-dev
+Suggests: qt5-qmake, ocqt5121-qtbase5-dev-tools
+Conflicts: qt4-default, qt5-default
+Provides: qt-default
+Filename: ./amd64/ocqt5121-qt5-default_5.12.1-3+20.1_amd64.deb
+Size: 50296
+MD5sum: 6cd2a2322cc658c33c3be10a85067213
+SHA1: d93001537ad6e170e77b91b795fb1069dad4cd16
+SHA256: 08afc571dded6fc00518c9fd8382fb95ee5e03380a9e45ea3a78507c447f3561
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 development defaults package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package sets Qt 5 to be the default Qt version to be used when
+ using development binaries like qmake.
+ .
+ This package should not be used for building Debian packages. Take a
+ look at http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html for
+ more information.
+
+Package: ocqt5121-qt5-qmake
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 4180
+Depends: libc6 (>= 2.28), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.9), python
+Filename: ./amd64/ocqt5121-qt5-qmake_5.12.1-3+20.1_amd64.deb
+Size: 1154376
+MD5sum: dc70e37bdf61f623e58b5e5dbefdb6ea
+SHA1: 5047fd12a7f33bb01cfba5f477eaab8e1ace9ff1
+SHA256: 2fef4eb7874afdf55be4b5a246d1bc1baf7975b6b19dc1c2033611eb1d947113
+Section: devel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 qmake Makefile generator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 qmake, a tool that helps simplify
+ the build process for development project across different platforms.
+ qmake automates the generation of Makefiles so that only a few lines of
+ information are needed to create each Makefile. qmake can be used for any
+ software project, whether it is written using Qt or not.
+ .
+ Qt 5 qmake requires a platform and compiler description file which contains
+ many default values used to generate appropriate Makefiles.
+ .
+ This package contains also these platform specifications.
+
+Package: ocqt5121-qt5keychain-dbg
+Source: ocqt5121-qt5keychain
+Version: 0.9.1-1+1.7
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 1315
+Depends: ocqt5121-libqt5keychain1 (= 0.9.1-1+1.7)
+Filename: ./amd64/ocqt5121-qt5keychain-dbg_0.9.1-1+1.7_amd64.deb
+Size: 1293184
+MD5sum: 7dd8d88b35ee7059770e3f00fdea911d
+SHA1: 877dd89c1dcc9488545373e6f3fbc64a17bd4512
+SHA256: 136f5b475538e658c6162fbfce47eddaed92e5b6c4325ef23e75b2cfa7824261
+Section: debug
+Priority: extra
+Description: debugging symbols for ocqt5121-qt5keychain
+ This package contains the debugging symbols for ocqt5121-qt5keychain.
+Build-Ids: f529a0102f3a7851f56568339f2038a7544e6dc3
+
+Package: ocqt5121-qt5keychain-dev
+Source: ocqt5121-qt5keychain
+Version: 0.9.1-1+1.7
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 42
+Depends: ocqt5121-libqt5keychain1
+Filename: ./amd64/ocqt5121-qt5keychain-dev_0.9.1-1+1.7_amd64.deb
+Size: 8056
+MD5sum: 5bd23cdacdd5f044863beb246d2488a7
+SHA1: f8e5512e9cf3bbdc5f22f3b3ad736a27c2b080ae
+SHA256: 4c25ef77a8d53b5c51a26899747cade7a9f4d65ab5924d9daa72783e72a69570
+Section: libs
+Priority: optional
+Description: Cross platform password store library (development files)
+ use qtkeychain to store passwords easy and secure on Linux, Windows and Mac.
+ This is the development package.
+
+Package: ocqt5121-qtbase5-dbg
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 5530
+Depends: ocqt5121-libqt5core5a (= 5.12.1-3+20.1)
+Filename: ./amd64/ocqt5121-qtbase5-dbg_5.12.1-3+20.1_amd64.deb
+Size: 801720
+MD5sum: 524a2c01bc49061294ae8e2be2e63f93
+SHA1: b8466993d768ebb29c82a77b9d911213ca7f526a
+SHA256: 206a5335bb6d8cbd40868addb17f0e135e6cb8271556b8e70ea9dff09b98c88b
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 base library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 base libraries.
+Build-Ids: 0e032dcf6e2e28bb4c51c96ae44ff0786e881c55 0ea56b58b6b33f0d6dd7b84c2ea3135d4df02513 0eb233c2e1e7efffa42fc0e5bfd6ed29164ae325 0fb8b8c8619c1bf8fcd0960094c9b56dd153c0e4 1097e872d6166cf293e87aac418ff3f2b7fbf0e0 124b9c2e6a1e7ce6d136209a280ef96a97a7c6df 14737a0ab993443c0a771f7ae38f67943ac55b24 182d83e545bdda65850b31a67b770b1d0f0ccccb 245b37f75a83fae53101562b25f6b971eb8b635e 36ff4111749aa5222d9becda65f4546fcde4157d 380c41dfe54d083c3d65d2b3ff229449843afe37 3c0e6233f974800447212f7166d2758efd7c3a6c 4164c8128b826b0f23bd19b435337bb033f9873c 4b813b760663682b49f45ac821e2443b4476bfbd 4f9738f273a089c0a44a083745b1229cc0a860cd 56e7b507ea1167cea437bc9aee9be15315de87c5 62ce67cfc85afd104219356063aa80e9c20d123d 65890a2110685b25c7fed3d2ee7a03247d8d100e 6ed48a79482cc51ac106bc0afe4f722919fe9e40 9e0d95f0c062f597a044a8c86d6292e394b34b84 a574f1e8cf793013e6745545fe71c5265776556b aa088cffcaebdfad5b983aae3da56363b2d574ab afa78060107d4e595e8eb68cd5098686f4b2cae1 bca14d6a2fcb7036b5204f50bf0eb75a6d026ef5 c1e167abb82d6d40c6559eef3333789c09b241c3 c26ac685a75dd2e26fa9f0057d6228f90bf64f36 c28101d74ede2f6d233b475a05bfc0eb82602081 c2b5e9df20939348945aa6b4dad7b8f0032235b1 c3ceb9e8b8257cbadef4f22a0a55309a73cb7330 d00be7bd6a0990bf4f3fb98aad19593d85f293f9 d5f56df85466bb1ad8253b0c3a539dc806f5b629 d95364100cfc93546e4849463808ccc422498008 f42b08c786eacd8faddefaf78f5e7eeb964147d6
+
+Package: ocqt5121-qtbase5-dev
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 14500
+Depends: ocqt5121-libqt5concurrent5 (= 5.12.1-3+20.1), ocqt5121-libqt5core5a (= 5.12.1-3+20.1), ocqt5121-libqt5dbus5 (= 5.12.1-3+20.1), ocqt5121-libqt5gui5 (= 5.12.1-3+20.1), ocqt5121-libqt5network5 (= 5.12.1-3+20.1), ocqt5121-libqt5printsupport5 (= 5.12.1-3+20.1), ocqt5121-libqt5sql5 (= 5.12.1-3+20.1), ocqt5121-libqt5test5 (= 5.12.1-3+20.1), ocqt5121-libqt5widgets5 (= 5.12.1-3+20.1), ocqt5121-libqt5xml5 (= 5.12.1-3+20.1), libxext-dev, ocqt5121-qt5-qmake (= 5.12.1-3+20.1), ocqt5121-qtbase5-dev-tools (= 5.12.1-3+20.1), libc6 (>= 2.4), libstdc++6 (>= 5)
+Suggests: default-libmysqlclient-dev | libmysqlclient-dev, libpq-dev, libsqlite3-dev, unixodbc-dev
+Filename: ./amd64/ocqt5121-qtbase5-dev_5.12.1-3+20.1_amd64.deb
+Size: 1311940
+MD5sum: 88b579b287190e311f2687f1bd46b1f9
+SHA1: 22828ccd7ada299fab6ab23061d3e48d8c285dc7
+SHA256: bcadfa615682e8525179d8907a0449a026f2a44df75f4a73ef6d1a64bec4ba94
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 base development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+ .
+ If you are interested in packaging Qt 5 stuff please take a look at
+ http://pkg-kde.alioth.debian.org/packagingqtbasedstuff.html
+
+Package: ocqt5121-qtbase5-dev-tools
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 3039
+Depends: perl:any, libc6 (>= 2.28), libgcc1 (>= 1:3.4), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, zlib1g (>= 1:1.1.4)
+Filename: ./amd64/ocqt5121-qtbase5-dev-tools_5.12.1-3+20.1_amd64.deb
+Size: 716332
+MD5sum: 7c7d7aebc8f32bad50c8c4c141ba0316
+SHA1: dc703ea242f2d4eaec028e063b25a6554848315b
+SHA256: 20cd071c0c9fc270ed6b63980861b953ac95f1b6c1e4c257eeeff97bb9e88968
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Description: Qt 5 base development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ applications, such as moc, qdbuscpp2xml, qdbusxml2cpp, rcc,
+ syncqt and uic.
+
+Package: ocqt5121-qtbase5-dev-tools-dbg
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 14523
+Depends: ocqt5121-qt5-qmake (= 5.12.1-3+20.1), ocqt5121-qtbase5-dev-tools (= 5.12.1-3+20.1)
+Recommends: ocqt5121-qtbase5-dbg
+Filename: ./amd64/ocqt5121-qtbase5-dev-tools-dbg_5.12.1-3+20.1_amd64.deb
+Size: 14007776
+MD5sum: 51e14756a5f981a50df1195f761460f9
+SHA1: fe630ccf7704b57ba7512f32d3381f23885094ff
+SHA256: 7407a691d4a80a2dc4452711d2994bba858d34e40e6538dacf2c9393575cb66a
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 base binaries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 binaries.
+Build-Ids: 3284f573fdd5f4e91cb0c2754794109f55a306ba 367abacceb9ef990ec0252778a5a2aade514bd2c 40a4e0e7b809ea308f6c6fcc54836297fa145c61 6c63c7827cf8453cf4ec85e6b622304796d845a2 e3fff18f80bb662eb63a4be934e34e740613c49e e42b9e96503070f249ff5195cf91e25bc099fab6 ee7fd1790e644370846e37afd054671d6efaeb4e 1f959daa9c433719339fe5a1c16847cda49e29a8
+
+Package: ocqt5121-qtbase5-examples
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 19232
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.4), libstdc++6 (>= 5), ocqt5121-libqt5concurrent5, ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, ocqt5121-libqt5gui5, ocqt5121-libqt5network5, ocqt5121-libqt5printsupport5, ocqt5121-libqt5sql5, ocqt5121-libqt5test5, ocqt5121-libqt5widgets5, ocqt5121-libqt5xml5
+Filename: ./amd64/ocqt5121-qtbase5-examples_5.12.1-3+20.1_amd64.deb
+Size: 3884068
+MD5sum: 011c5b5c05e2972044d0df06309ec6d8
+SHA1: 72b00b979b6198a8a8a1608042127ff20991439a
+SHA256: d794bb25f17d7a63dee9c2656e7b6bdc76303892d6048471c6b11fff5bc54400
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://qt-project.org/
+Description: Qt 5 base examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt base 5 examples.
+
+Package: ocqt5121-qtbase5-examples-dbg
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 4271
+Depends: ocqt5121-qtbase5-examples (= 5.12.1-3+20.1)
+Recommends: ocqt5121-qtbase5-dbg
+Filename: ./amd64/ocqt5121-qtbase5-examples-dbg_5.12.1-3+20.1_amd64.deb
+Size: 440264
+MD5sum: 6f85c08391241a9336874012ea568b66
+SHA1: 6f8b0a3e5f6601572dfe40a1922d4f973713fa0c
+SHA256: f250173d4339c9bccd9b79c11226c9c4ea3341bfe45870a7d63ac4ffb5f32018
+Section: debug
+Priority: extra
+Homepage: http://qt-project.org/
+Description: Qt 5 base examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 examples.
+Build-Ids: 001079c4a644603e6f405c8440d264f5f6cdb2d1 025fff25d302f637f237cafa057cbcaf81e144c9 04110ac5c77a6e2e91d5b6d6894a5bb8c23820e2 054eae2bfdc54e372a1b13075fced24691ad1e43 065ec6f90538e8ccad60656e082c89c839f0c778 0821ece227e091768f388b87a87e5eaef2789262 09ea6d2c9bdb4f090f32ffd358a9d66425a5b42a 09fab5889cd2f50b968becb0aefc32e81463493b 0aeb8066ab7dc42ad2070673a1faea583a0b0868 0beb915713ab30fb2d94fabf0d9c839a95a57c68 0c2c0c4734a70c37463c3a39fe760a1ef132c5a6 0d11191b0f86fa88ba65297c18d3da1f3b756892 0f90a3dc591ae4703678ffc694e144dbe01e2bf7 10bd050b05eb6dfeed58c0e169d0caabd64c7877 137da5708da90c90506dc77337727fa7de7ca293 14b610d81a9602d8302cd5e4692f44df5a0ffd01 14fd553d9afaaf7e8ba434edca75af700d45a0a6 1740857f3f6687e4a18ccd1f67d154f3fcbd2674 18abbac77f86bc713906e994ad64299d8cf09d59 18b86ee054f0ec6f1f61444677958b184fd0c729 18d97bbb5e5dca55ab372749597669f0bf109080 1910b2c0684315eecc4dcae277756f9748924610 1928b2f2b2123cebb8e03fe145d8b4fc3a7c4117 1bbb2f83465a69a9cd1cc805b86dc8f8a6d2c6dd 1d294dd9e5b32e9ce3f14309df704c8c180c0d2b 1d6ddf274477041b6f1b3b6a63a08edd8edb58c1 1d84d0e5effa1888caa4c8e37901561481428bb0 1da5aef0e0936643117a3ca9d1003b8078273703 1f5db55154c5dbdee0eb589e2b2451e1371f7f23 2081f931f952481b713fb0fd228ebdfd0e3f3676 20f7ce1a078ad15221ecc2a890e3b4bbf4a7b94c 21646d8981d1893d1e43ab98d11a60dd1247b995 21f1fe0424fdf0613fb6aa1d3a8cdd1ef9206313 24d99b890c32a2cc021daa36c4b75d129979b9a3 280982f31aa9a48d5aa7c6bf0aab856f475930b4 28567fa3e301ce7f4cc08a10d67fcd39095f34c7 288be55e59ddf014ac686995e60ad92b42ad1fd7 29e68917dc02eace76ee450a83a8c1f7d9b4e501 2a751a17234edd7b2e93d7dc1f7fce0c3988c600 2cd7a197a11ab779d6b5e7d7e4eeb7f22ca2df24 2f6a5fdf82cc06e143fe0d4033330657bc7714a5 2f6caa183169fecea08184db43893f931e360e2f 3020a7f7614ee56a51908cbbbeb3c938b365d94a 31f09ffa229951c773c3ace1db594fb45a1ef639 321dd55bb2c75135d3315b998357039dc9266018 330173707c0dea009feeead9947c5f82c9387e3f 352df3cb5f2ab7581e24d9c5c1b7964b36db52fc 3671b466592d3b911768535bf98ece78a7a503e7 36fe6ee2a104ef0c0828f075f3734f5014845068 37b89d1ce91ea403b78fb9d5796ca5186d01b7b0 39b3f217b5f94864922e52317b06b8bbb50b65a2 3b987e6d1bd560bd2b12a8c8f98c314fa0af899e 3bc13893a60fb56b72122e2521ca2419ed9f1edf 418351c7f8ea20b1b5230fc35b950da4ba273b40 4321e2439026e791bc46aa7a8e2aa1f604784c58 45ef1566db73175e92f00c5e07f3b0a76002d63a 46074cfc6eb8d73066e9660ffc39b14c5b85ce18 4672a4abb42936fec801eeb9d4c8950d1bad2ea8 46c3ceb737ef9687f7a3d451732a09746b5d9af5 481fedfa93af86dd4dba8a5e6aade9ae5570fced 484ef4f3464bf978af2efcbfcc25a343183e7f2e 4aee659237ba02349689bb5182e29e517c4c0847 4b1b0292f0ba68d8473a0036a1464d6d417a2e5d 4b81467de132399413cdc890e5d89b55712435ee 4ce06453af471e02e6b5776c73319af7fa89f2bd 4cedd5c8a0518b582b0e047109f93c6d3375a004 4e9318bfe668649d4ee504d8313c34cc1fe19118 50dda3467717d73c6196ce579cb5b790f473d064 5155b4abf6f9e69118beef3c4b4f00fd04c5f5c7 52428c2f62e5937cd8e95226b2e969dd59bd7e7e 53c9ba1b998bc0f0d8d5970193a9b9d0fe7349c5 549842e6beee463a6be3bd68236ce0da5bea35bd 59bc108c66401c372bba848028ebe83fafb01723 59cff679715a284320b1e50c160c6af3c0b5703a 59dcf011dfaeb81bc4070f951ff9011bee52b9b9 5a02fe08f25365e5b337e43dc23d21aec0543428 5a5c16e9496451abfffe5b12811424c1ee4a5a9f 5acd864d0b33bca322807eec698333d28098703d 5c95c649cfb23e0dd350b11337a0b011e774c02c 5d8dc6083af0b17acd730f0b414cde1d3d72d6bd 5f08aac0a22f34e2ef63c0c4da4b4f85a4bf3a25 5fe6bcfc8377193fb6313d1fc36246cdceca5d34 6045d3d428131cff0db61e34f29f0dacef7821b4 6066640d7d51fc45b2c6b0571c84ccf2edcd939e 61432a55d584c2a6f7eb569d608d3b5fa1803586 61e02075ab4a97afb3f801c1532d5387bd338f3e 6215657d7961e03b4f8da98e71d14614647d84c3 653aebfa81433b356c98c1199ccfb7679c95a68f 6685f6c1e6148d1de47e2f34e85314c2a5b8fd05 66fde6a37a23cf92ba1e8d3c528b4a050200db4c 672be02e7c8ff35abd59d304d2cc5ad6041fdf72 678d05fe249cb852c03f30e9e22b9a2439ebca8a 68e1f399306f02b12f5e74d8ee2c26488069d389 68f7bc83eb1894ca68662b380fb600ab87a67a76 6c424e1c631bffd286c908205d076dd9235703d3 6c81709914296aa7063c844287b834b78ee82dbc 6ebbaa3cd2ce943cd5a4f38f55ee38be7971b542 6fbf0b9487e45e475c1270a734e1e95890e4890e 6ffead511e12cdc7f25d16a8b3d1dc6c301439fd 7016c1280cc1fd486bd436d8cb7ff61a8f3b6d90 738e60b7b20036f50cffb30993948338002bbbc8 7461a8a5b1942dbed26c54bf40a3d8ba76b01775 7664ad9c4bd12a8c3a3a414470e205ecab8de833 76b89387ca15c7e156d9b60205bdd5cc5145cfe2 787e7b9229f94cd0b3df253d39de9f97390f5c57 78d50762b45ef4bec0f6aadc79a848819fe7eea4 792349ebb6099bf76aa18c5322982d52346e0ff2 7a843e20a643075a1b6052d0e9a5753c47c98c24 7be9ebd99b4890143eb26c4dd09a791e7d4983d1 7c431dddf89a2abca6e92e781ac21c1419d1b325 7d4c01fef35613659069daa6acbb1bd1a5c6edf5 7f6d7363af8e50bf900a7055e731e7cc016a4455 801e988fcce64ea969f3977ca86006183047d91e 809fcac0d0f985c936765dcae5e269c067a148e4 8204380f5dadaf14761ed638d3599e28c30bd78d 8275cb573d06b338ac574f07fe939d8fefbb2950 82c455648a5fc2b1bd0ebb7d7fde305c8b6a2897 8337cf374633bb190d7a8c5b27fc2e8ad8c125ee 8461899580cc9e29cddae9759ae86be649f399b5 84e43408e8bf90a9561476c01f098b1c747805da 860746be0feec55b3069655912667f2daa3859d8 8628116baefdabcf33a454cf2123544c9726c9e2 872687b80f85df43184f5158ef85b364d294c864 8747b1043f02f8b35a064d0e349b481813510a70 87a97c351803308699712de4e78bec274a99f1ab 89fa07738ceed72bca176043680a0f142ded8347 8b1c5226b22dc662c6254ea2c12efeca0c3b676e 8b513965ceb3b870eef1735e97e36781d60849c7 8c54644a9299484c32f7b2219e618df95351c4b0 8c70e0c972343c3c89e0af1541d043a0b4782957 8cb0c1553db6e403ec603916f07f5bb772c02e68 928cbb11eabcc8cd85abadeb9e8ad8db408c20f9 92bb67c4fddb10bbb122e5765cc1be5334a09017 92fc200ad0d2933010f516f4cc516d923cc025b2 945c05453a64d8518018810591dec52669a721d9 95001a4c21621d16ee4b74048b3ecfa4df07b954 95f8908b0e7b35606a7dc3ce0a6ae62969c2e2db 961abfb6b84f378316b99a45e22b03b426c22c90 96351b3c7748ee391d1b59e34911cd4ec29cefc0 984ce67ed70ef399628342d1830d7fd1b97c6c1f 9970332866b03718f0ff36fc1b412485d6bb9b94 9cb5a04ec137f4f63874b6f741cda0c0d3434750 9d50c6550b1d270998c6859147adba4a2f8f9526 9e47f51a3515be17c4f0b1228ba8e8ae50a19732 a085770efc0d3b021fefc507bfd0fece62993063 a14ce6bbcb4455ff5b2fa4e9642b62b64813be4a a1f33eae51c0947a36d1816c696ad0b868626508 a2f7b31a56f815173011c4e0e96e998c9f983e4d a4276a3346a27eac85c7230544406bbd6a067a9e a580df5a050cc2d03170a290fab258c1098b354a acc2b079127fd7b328e4f36e3cf08a5f9a8d9f2f acf08d6fd335615e29a1d4296f3e359f26afb5b1 b09251c29c798c09adc7b66fd78b70e9d7a6b723 b1880150aa673de94983818c70e27f47979cba90 b54ff700baac1f4e679f8445caf1d89b1a8c9042 b6db57e71a2296c054427ae6b79d28fa1a845924 b7183f11787dcc4f8eb07e0a5909f4b0f95eb833 b817831fb0f6c9134fd6bd434119c25eee90bd91 b86b9b883a824c182248a19daa6806dc4e670232 b96cf28c53188a79c31417cb6a75ad7b0295e5f6 b9b4cfddda933c4ec9f74e9a625c16c8362bf915 ba80e82856d15dae7fb4d13ce2070cfdf7739e3b bb51edbaec2650ea40abde9680f1e7a1e30e390d c03297915b0466cc94d03159128205c51b295a7d c0a89902b3aef45e067cafe8124db033d4814c1d c1de24d92c7a7526b3db3e2942dc98349c47b832 c21e6c7d49fc893e3b79d0ec23c79462bcb775af c22e8c54b72a0c0227b1a890d7adbf31dc6c209b c268889078aa0fca471f419e3f04e5d55789befa c2d5aeadb44218af60a8866635782231b5c75c9d c5032b8d14527896ab799c4ad43929be3caf060e c592668aa642113ddec906c2b892d20b9f7149a4 c63d35df983cf6ddd066b684226e635308da8497 c6e72b5927c882ddeeccff2d62181b2361c91202 c8411423ac702a7a5d2f6f039a54edd02c868fce c841d733e08ef954c8019bd376dfde4f8aa0a63e c9b73723aab1a43d9b25aa122fb2f23a0e07b2fd cb0a175d67741bb0a57ad7e1d81f6ce76675fef9 cca6ea53e163750b6a26d25debd7524e2277ecfd cd11d92e61d7ca4484c2d35d00c51eff1787484d cd994b8152dcbb10c19cf53330809c59e40307bb ce6cb115099cdb4a670fd156399ff23345f84bec cf4411889dc81468176b5204e2f095864c0801c7 cf4729d20b4a41cc1f6dbae0d48834dac546e899 cf59fd067e6d42aeb63e78139196cdb5e463ca71 d35e25b161d09670af906d6a6daf38238fa21f5b d49de7b87c214a91f549ee41031d1d99d1d79fa4 d524a90c5aa6ae83b5fee876acb91e23d4a34058 d68065448ef58c8d411d5afa95bfe34263036661 d690c8ab0f17b7be4581d5384bbb7b8e7122a44c d7626904cd63298b78bbb228b5c4cfc365ebc2d8 d8656356317d4612c8113c9731dcc57243dcb5db d8956b5affc28c69cf1201e3dbb712288ec7de90 d98d0b73f15c0a7d6b0fdc3084daf756c84e5386 daf2080cebe5c00af588c8e83d48a45f2b2c3fef db87738ec5f37da85af0cf16b004c6f00b2dcc78 dd4305429f9a4c683ecac978816c3e47cbb51def de3d4dd3d5d78af1ef8e5cf9912fafde26f04fd2 de6e7e49752d7dc14bfe7ac2ee9ff505106efd53 df3d1459dbfa07f51d7818fdb6d1d1aff9dbe38c e0c81e3abf9f9b517b564d487059a304fb83f6fb e14477bee3890f24340828549c42924ba3b29c4f e15a31741d2cea848a440329243e863c17460709 e48bc4bec251e59bdbfde50ccf9603aa61889bc2 e4daa3456766345d4e4c299210c43109844b8749 e5648aa8a03cd31f55c5d887a55255495c2c33d4 e58dbc31ef848f7256b747a3ee7e8bf7de516220 e745041f258e65e73cdf52010bd6dc2e76b9a124 e888ecb8479705aeaeba690bb80adba2e6897036 e92415eeb674c368eb795df706fcaefcecc90e88 e96bab7f475485a91ae3926660b4050b1b5fec2f eda65cab8db324979307637f8537dc9313c89611 effb95acfd954cc884726a5bf0c5b92a45f544a0 f15aaa4b9669cf3d9acccd03db9a5ca213e98938 f5436b8164414ea1f64cee493217892730180088 f6567cce784f0fdddceb13e3daecd4e890c5c2fd f7156567e6ac2799670a852f3a96fc10f88eabe4 f715de74354259b13233e5cd6a98c96c0c8c11d6 f99d2874eaf18c618fde49d719f0be2b3e021cb5 fd50fcdea2628eaeeb449cf270e9a5843287d5ad fdad7cff541b46bec58a1454feb79170222d7b86 fe087f2a2e0c7d37adf2e3daca8502fb34b3e949
+
+Package: ocqt5121-qtbase5-private-dev
+Source: ocqt5121-qt5-qtbase
+Version: 5.12.1-3+20.1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 6581
+Depends: libinput-dev, libxkbcommon-dev, ocqt5121-qtbase5-dev (= 5.12.1-3+20.1)
+Filename: ./amd64/ocqt5121-qtbase5-private-dev_5.12.1-3+20.1_amd64.deb
+Size: 779616
+MD5sum: 00f494010e73081ee3d9e741d7f3f99a
+SHA1: 78583f1127868eff5d02cb3417f22115910dfbea
+SHA256: 5a250addc3ad05ceb157ed4340c3d5b657c6cef55ba3bc803b15493bb230d3a1
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 base private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications like Qt Creator QML Designer plugin.
+ .
+ Use at your own risk.
+
+Package: ocqt5121-qtsvg5
+Source: qt5-qtsvg
+Version: 5.12.1-2
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 437
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5widgets5, zlib1g (>= 1:1.1.4)
+Filename: ./amd64/ocqt5121-qtsvg5_5.12.1-2_amd64.deb
+Size: 123184
+MD5sum: e5b1a9b77f829fc763030b6017d91e40
+SHA1: 265c8a35237d28e5c12360498bc25833541f50a3
+SHA256: 321f737f842326f26653a19c72abe25fd197591b2174d09f631c4bc905b355d5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 svg library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt 5 svg module.
+
+Package: ocqt5121-qtsvg5-dbg
+Source: qt5-qtsvg
+Version: 5.12.1-2
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 348
+Filename: ./amd64/ocqt5121-qtsvg5-dbg_5.12.1-2_amd64.deb
+Size: 48432
+MD5sum: 939c054ce99eeeaaea472272e4b0a2cb
+SHA1: 887ad4b5d28d98ed4454df4a1c86fc6e070b5ac6
+SHA256: e98d6fc13c7c0c218cf36a8ca5705ef248e1fe1bf2f0d6e951730a1510f19575
+Section: debug
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 svg library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using Qt 5 svg.
+Build-Ids: 1d1cd49938e4cd3e3d78ee0adb98edf6d3420a00 317f949154776884135867ea7044e74ef0e95940 45c29073964c85b666abc8b92598367844f01cc3 4d73f9260bb852b791ab6f71dec2b537b0493a28 4fd0e2cd4060ba1cd52c40bc8b266e550a763abd 6022d31adcdc32b1fd9b61a183bf02943fa51b00 66782583cf95422788e3f11b6941d28916e4babf 90cac985076f8a468f90ac6cf4ab6cdc22757072 d6e2e5f5ba834975a14d7a7f31bf3acb1b70d6de dfc7ee5423d511606f691155638685a51915f88d e55bd17d8dacc8ac141fcf0ac12396a2e8193ecd ff143dc0613ff8eee04f11d36ad5b7aa50329864
+
+Package: ocqt5121-qtsvg5-dev
+Source: qt5-qtsvg
+Version: 5.12.1-2
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 3873
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5network5, ocqt5121-libqt5widgets5, zlib1g (>= 1:1.1.4), ocqt5121-qtsvg5 (= 5.12.1-2), ocqt5121-qtbase5-dev (>= 5)
+Filename: ./amd64/ocqt5121-qtsvg5-dev_5.12.1-2_amd64.deb
+Size: 1402736
+MD5sum: f1bf1484fb53c11688e993306ae1786e
+SHA1: d766e005f0e4441c5eac9d7e9d80a090170d83f7
+SHA256: 0c44d7da73498c298501baa6707823bd1923596432a5ca383c13a4bfa5639e30
+Section: libdevel
+Priority: optional
+Homepage: http://qt-project.org/
+Description: Qt 5 svg examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 svg module.
+
+Package: ocqt5121-qtsvg5-examples
+Source: qt5-qtsvg
+Version: 5.12.1-2
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 3342
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5gui5, ocqt5121-libqt5network5, ocqt5121-libqt5widgets5, ocqt5121-qtsvg5-dev
+Filename: ./amd64/ocqt5121-qtsvg5-examples_5.12.1-2_amd64.deb
+Size: 1277036
+MD5sum: 581138517b363558798bec86e3bcc18b
+SHA1: 074509fb6c71cbaa9f2bf39df973826c2b3f03af
+SHA256: 4da908d27faa7ba87aa51745528d123774b95291d2e7afc95cc9ab01cbc38479
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 svg examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 svg module.
+
+Package: ocqt5121-qttools5-dbg
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 3171
+Depends: ocqt5121-libqt5clucene5 (= 5.12.1-1), ocqt5121-libqt5designer5 (= 5.12.1-1), ocqt5121-libqt5designercomponents5 (= 5.12.1-1), ocqt5121-libqt5help5 (= 5.12.1-1)
+Filename: ./amd64/ocqt5121-qttools5-dbg_5.12.1-1_amd64.deb
+Size: 375508
+MD5sum: ba038f40f1180435890efdb022422035
+SHA1: 308a945e20968e1fcc727cc512295079f9f00402
+SHA256: 25ab207d5e7e10c61e82e4a0e800610d0c38ae2d9b2ff674d1e8732618865056
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 tools debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 tools and tools
+ libraries.
+Build-Ids: 101b156dba41ef99c58ef3fb9be8ae93da84d247 1d762dd3b2991a890310ae230278a17b1f776bcb 2d1700cac71b9a76068d25951b51f53ccb04c22a 473ce0c415d3f03f6ee03b84389c0ab24f0ded56 57002863c456577947a58ff355a24685ec35e25f 6815785594031b4524e292c6253c83abccb2692c 690e5e6393ec532acae50978a759f48f5e962dd0 6b2d158c40080be0bce3e8de4d4354a6d94bcf68 7e91bec58c20104bf340d53bcd4a603485c50b98 88e09bd4a067650d5daf7cc83c03e73a49943692 a16698f4c20f2875d82ec57121455117f06419d5 b08ca27f157aecc90015bc758406600d533da281 baff9f282b2e07ce467cffdd1af97006ae084193 e736d7ba200397798275c3ee391b8aa46ca2b2ae ee68da51ebe598c1f491c1bd624d5f4e37bfe479 f0d65aa26a0768e7e05016072666b8a61dd52ab2 f786e3a9454d0633104fcbce0d3841346bc48ab0
+
+Package: ocqt5121-qttools5-dev
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 1468
+Depends: ocqt5121-libqt5clucene5 (= 5.12.1-1), ocqt5121-libqt5designer5 (= 5.12.1-1), ocqt5121-libqt5designercomponents5 (= 5.12.1-1), ocqt5121-libqt5help5 (= 5.12.1-1), ocqt5121-qtbase5-dev
+Filename: ./amd64/ocqt5121-qttools5-dev_5.12.1-1_amd64.deb
+Size: 184912
+MD5sum: a57e5862b7db6f825855070c2900a46f
+SHA1: c495b77ffa32a8b927e2477f1d394e6ebd5d4f37
+SHA256: 618a121c91483eb65bf8ab5e18eb54972a3688251bdbb27dbe1ed74ece5a2f21
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 tools development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+
+Package: ocqt5121-qttools5-dev-tools
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 5555
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, ocqt5121-libqt5designer5, ocqt5121-libqt5designercomponents5, ocqt5121-libqt5gui5, ocqt5121-libqt5help5, ocqt5121-libqt5network5, ocqt5121-libqt5printsupport5, ocqt5121-libqt5sql5, ocqt5121-libqt5widgets5, ocqt5121-libqt5xml5
+Recommends: libqt5sql5-sqlite
+Filename: ./amd64/ocqt5121-qttools5-dev-tools_5.12.1-1_amd64.deb
+Size: 1685972
+MD5sum: 18e08fbc31d822efb2dd6eb25fbc555b
+SHA1: 8b0be49b6431e18649ecd4436af6d9266940abb5
+SHA256: d903960cd8001b0dbe8d1e40e911827654e4c9b6877e0e4e25a67b17bf1e8315
+Section: devel
+Priority: optional
+Homepage: http://qt-project.org/
+Description: Qt 5 development tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of applications to browse the documentation,
+ translate applications, generate help files and other stuff that
+ helps in Qt development. These tools are among others:
+  * assistant
+  * designer
+  * linguist
+  * pixeltool
+  * qdbusviewer
+
+Package: ocqt5121-qttools5-examples
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 2613
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5), ocqt5121-libqt5core5a, ocqt5121-libqt5designer5, ocqt5121-libqt5gui5, ocqt5121-libqt5help5, ocqt5121-libqt5widgets5
+Filename: ./amd64/ocqt5121-qttools5-examples_5.12.1-1_amd64.deb
+Size: 471352
+MD5sum: 44909809792cf2cf0b1bd8f89f0ff591
+SHA1: 87f9b58c5e3498833f3ff9ca2d9c60ed49791e19
+SHA256: ebadf4360824da67dc998d724165e19b076a33db59c9a77bed1dee080ce0726e
+Section: x11
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 tools examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 tools module.
+
+Package: ocqt5121-qttools5-examples-dbg
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 814
+Depends: ocqt5121-qttools5-dbg (= 5.12.1-1), ocqt5121-qttools5-examples (= 5.12.1-1)
+Filename: ./amd64/ocqt5121-qttools5-examples-dbg_5.12.1-1_amd64.deb
+Size: 73736
+MD5sum: b08d545e2d37490adf7216a5ab239df5
+SHA1: ee908f0cca7f61fafe1229fcbd92e2b09f03c356
+SHA256: e6a7864da63667641993efaf72fc1e509e05e3f93c709b06bebc30cd31838836
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 tools examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 tools examples.
+Build-Ids: 000250894cea3da1d9f4bae06a692c8338f6838e 07a2e9c19986e014a2d9d06a6d10a0527143fcd9 14dfeec2b32e7046647a7550ba82b14bc5fa1822 1ae929484e7b96a0be098467bb2453c2e50853e8 36d96aa26af2c5f9e9352d77760eeccad5d6d9da 3da57dc638eda9d6eedcd77e4fe6cbdeb52a0ed7 49cf99246ab2a4834ee9bcf821af643024a25a6e 4f5a3fedb3ddc6f1c2032b0a46109b13b7ba80b3 74dd4eadd36567391654ee0a6d043f60686549a8 8dc0847c52d53525d1c408399efce7ee112f78de a2481bd915f80cda83a6d41ac3bf1d46ac256d70 a92800ab192aac96993bc4a2158091bc2073f759 d6f7b7fdd498e9e439f4b024adfecac99617f114 d94c8c3213f782738e1eca18cade1b88f1439e9d e42302456aac7dc0d3cf06a4c3c63aa67c8d7752
+
+Package: ocqt5121-qttools5-private-dev
+Source: qt5-qttools
+Version: 5.12.1-1
+Architecture: amd64
+Maintainer: Juergen Weigert <jw@owncloud.com>
+Installed-Size: 629
+Depends: ocqt5121-qttools5-dev (= 5.12.1-1)
+Filename: ./amd64/ocqt5121-qttools5-private-dev_5.12.1-1_amd64.deb
+Size: 76476
+MD5sum: 25129a20feb44d725ad159136db3e767
+SHA1: 7ab4df82facaed87f3dbb5beb13211681689265b
+SHA256: 7603f69ce63ba8860490f1a4879dcafc65186335ac0e12a587f7bfc5b20c0ac6
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://qt-project.org/
+Description: Qt 5 tools private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains private header development files.
+ .
+ Use at your own risk.
+
+Package: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: amd64
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 2818
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libopenup2usync0 (= 2.5.4+oc-2761), libstdc++6 (>= 5.2), ocqt5121-libqt5core5a, ocqt5121-libqt5dbus5, ocqt5121-libqt5gui5, ocqt5121-libqt5keychain1, ocqt5121-libqt5network5, ocqt5121-libqt5webkit5, ocqt5121-libqt5widgets5, ocqt5121-libqt5xml5, libgnome-keyring0 | bash, openup2u-client-l10n, ocqt5121-libqt5sql5-sqlite, ocqt5121-qtsvg5
+Suggests: openup2u-client-dolphin, openup2u-client-nautilus, openup2u-client-nemo, openup2u-client-caja
+Filename: ./amd64/openup2u-client_2.5.4+oc-2761_amd64.deb
+Size: 991428
+MD5sum: d2ae22ece7d8e49b004799e2612dadd1
+SHA1: 91cf10d6ec2f9c98f5d13f4ac552cb1fa63450c1
+SHA256: c27bd8832b93624544bf1d570f97b26619ad5f5230f79fadfcac7f0e5257af88
+Section: devel
+Priority: optional
+Multi-Arch: same
+Description: The ownCloud sync client - github.com/owncloud/client
+ .
+ ownCloud client enables you to connect to your private
+ ownCloud Server. With it you can create folders in your home
+ directory, and keep the contents of those folders synced with your
+ ownCloud server. Simply copy a file into the directory and the
+ ownCloud Client does the rest.
+ .
+ ownCloud gives your employees anytime, anywhere access to the files
+ they need to get the job done, whether through this desktop application,
+ our mobile apps, the web interface, or other WebDAV clients. With it,
+ your employees can easily view and share documents and information
+ critical to the business, in a secure, flexible and controlled
+ architecture. You can easily extend ownCloud with plug-ins from the
+ community, or that you build yourself to meet the requirements of
+ your infrastructure and business.
+ .
+ ownCloud - Your Cloud, Your Data, Your Way!  www.owncloud.com
+ .
+ Authors
+ =======
+ Duncan Mac-Vicar P. <duncan@kde.org>
+ Klaas Freitag <freitag@owncloud.com>
+ Daniel Molkentin <danimo@owncloud.com>
+
+Package: openup2u-client-caja
+Source: openup2u-client-overlays
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 28
+Depends: openup2u-client (= 2.5.4+oc-2761), openup2u-client-overlays-icons, python-caja
+Suggests: caja
+Filename: ./all/openup2u-client-caja_2.5.4+oc-2761_all.deb
+Size: 7672
+MD5sum: 870687dae16a2424e0ebb911ba690c58
+SHA1: a15327093e4f3bb5e586b2bdaeb930b126f0feff
+SHA256: 4530ac9ede5808b97106af07fff56f100643703a0d0a618f61997679f3347a4d
+Section: devel
+Priority: optional
+Description: Caja plugin for openup2u
+ This package contains a caja plugin to display overlay icons.
+ .
+ This helps users to understand the sync state of files in the
+ synchronized directory.
+
+Package: openup2u-client-dbg
+Source: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: amd64
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 28656
+Depends: openup2u-client (= 2.5.4+oc-2761)
+Filename: ./amd64/openup2u-client-dbg_2.5.4+oc-2761_amd64.deb
+Size: 28349772
+MD5sum: 6b722a38f7112f8843ed98fed88a6b17
+SHA1: 28e455878785d835194beb781b09993cedbe82a6
+SHA256: b3e65606ee8bdffd61d538df6edee75cce3d3c10d53d9896b6cf2537145595df
+Section: debug
+Priority: extra
+Description: debugging symbols for openup2u-client
+ This package contains the debugging symbols for openup2u-client.
+Build-Ids: 067e75d6999a51821d53322f9645237f7fc17626 427eea2062f9099588cc3fea6343a7beb6fa1237 4cd8c2a03ccada6a851c34642a59c156658cca3d 79c94bc554f9f4429ccdd5d9c6e1ec3f13b66943
+
+Package: openup2u-client-doc
+Source: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 9
+Depends: openup2u-client (= 2.5.4+oc-2761), libopenup2usync0
+Filename: ./all/openup2u-client-doc_2.5.4+oc-2761_all.deb
+Size: 2784
+MD5sum: 3dc688531e85adc6fd3d678980defb43
+SHA1: 12d875b81d8964ad43e45b63a6a3f7b9e7588eb4
+SHA256: a1efb652c5c4663e3f80cd726fe2da022ba11d9f0d56b99dd5d25a2420f54ff4
+Section: devel
+Priority: optional
+Description: development files for the ownCloud sync lib
+ Main package for ownCloud.
+ .
+ This package contains the library development files.
+
+Package: openup2u-client-dolphin
+Source: openup2u-client-overlays-dolphin
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 129
+Depends: openup2u-client (= 2.5.4+oc-2761), openup2u-client-overlays-icons
+Filename: ./all/openup2u-client-dolphin_2.5.4+oc-2761_all.deb
+Size: 28132
+MD5sum: da731b3e8a7a03d43ae829914ac1b6c4
+SHA1: d3d5b30dadfe7f7e04d8f6769ac449bf89cb2643
+SHA256: a099ad79c863b944fb9a64ae13bb736dca6f39ed689cfed15469ba45fb12bb5e
+Section: devel
+Priority: optional
+Description: Dolphin plugin for openup2u
+ This package contains a dolphin plugin to display overlay icons.
+ .
+ This helps users to understand the sync state of files in the
+ synchronized directory.
+
+Package: openup2u-client-dolphin-dbg
+Source: openup2u-client-overlays-dolphin
+Version: 2.5.4+oc-2761
+Architecture: amd64
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 862
+Depends: openup2u-client-dolphin (= 2.5.4+oc-2761)
+Filename: ./amd64/openup2u-client-dolphin-dbg_2.5.4+oc-2761_amd64.deb
+Size: 823652
+MD5sum: aa8efaac8744f322a0c3003d0f97e1a7
+SHA1: 0edf5b8f9659bf5516a4c6bf3944382c62639137
+SHA256: 0129c2eb43aa3903c516725b5466c8d9c843ff4207da9f293f2d268318a04c86
+Section: debug
+Priority: extra
+Description: debugging symbols for openup2u-client-dolphin
+ This package contains the debugging symbols for openup2u-client-dolphin.
+Build-Ids: 7103e995764c822cbd37f830a98d358047f04121 b10b0223c05e9e47f6372041c06e6ab403189b78 dcf30cccbfd6c354d5e803e6c9fff7a37f1cc752
+
+Package: openup2u-client-l10n
+Source: openup2u-client
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 2978
+Depends: openup2u-client (>= 2.5.4+oc-2761), libopenup2usync0
+Breaks: openup2u-client (<= 1.5.0)
+Filename: ./all/openup2u-client-l10n_2.5.4+oc-2761_all.deb
+Size: 374144
+MD5sum: 009f90733306b2a7212855fba9b4191f
+SHA1: 59b4489431d2dbc0749e28a1bee1b7f266c13bd2
+SHA256: 755db4e8b6a048bb7c916be648658ac42451650cb0aa40f2a7c916ba9d10f10e
+Section: devel
+Priority: optional
+Description: Internationalization files for ownCloud
+ Internationalization for ownCloud desktop sync client.
+ .
+ This package contains the translation packages.
+
+Package: openup2u-client-nautilus
+Source: openup2u-client-overlays
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 28
+Depends: openup2u-client (= 2.5.4+oc-2761), openup2u-client-overlays-icons, python-nautilus
+Suggests: nautilus
+Filename: ./all/openup2u-client-nautilus_2.5.4+oc-2761_all.deb
+Size: 7664
+MD5sum: 961e5027f5d9caed32d353069f41a763
+SHA1: fccb0a2935f2c77b724ac982cc9d92d78b790562
+SHA256: ff3ca1d1bb21076e0a024756336cfa8674555cbcb3cf27d9642e6987d644effa
+Section: devel
+Priority: optional
+Description: nautilus plugin for openup2u
+ This package contains a nautilus plugin to display overlay icons.
+ .
+ This helps users to understand the sync state of files in the
+ synchronized directory.
+
+Package: openup2u-client-nemo
+Source: openup2u-client-overlays
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 28
+Depends: openup2u-client (= 2.5.4+oc-2761), openup2u-client-overlays-icons, python-nemo
+Suggests: nemo
+Filename: ./all/openup2u-client-nemo_2.5.4+oc-2761_all.deb
+Size: 7652
+MD5sum: fd52a8ed558cff43500a6468701bd016
+SHA1: 56043e039a1d4b4cb73bd3511291de846330fb7e
+SHA256: a8cd6b4a9f605077ec0417d08c44ba8f28d8ba2bd2f684d96b4b61deb3c4c32d
+Section: devel
+Priority: optional
+Description: Nemo plugin for openup2u
+ This package contains a nemo plugin to display overlay icons.
+ .
+ This helps users to understand the sync state of files in the
+ synchronized directory.
+
+Package: openup2u-client-overlays-icons
+Source: openup2u-client-overlays
+Version: 2.5.4+oc-2761
+Architecture: all
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Installed-Size: 221
+Depends: openup2u-client (= 2.5.4+oc-2761)
+Filename: ./all/openup2u-client-overlays-icons_2.5.4+oc-2761_all.deb
+Size: 133732
+MD5sum: 76daeb50de7aa95f59274a498953de5b
+SHA1: 49f257a985db0e48e02877b71ea4cdbe22cd9122
+SHA256: cf0b0db8fd4227018285c6aa34b7497d52977e1e5b313b986d5ac353359efc74
+Section: devel
+Priority: optional
+Description: overlay icons for openup2u client plugins
+ This package contains overlay icons for openup2u plugins.
+ .
+ This helps users to understand the sync state of files in the
+ synchronized directory.
+

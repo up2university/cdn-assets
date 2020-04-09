@@ -1,0 +1,24 @@
+## This contains all additional repositories needed for instaling an owncloud-client.
+## We list them here per target. File format is one line target name, followed by one line of a verbatim xml-snippet.
+## Read by client/make_index.py and used in write_ymp() to add additional repos.
+##
+## FIXME: this file should be converted to yaml, so that the RepoTemplate can be used.
+##
+openSUSE_12.2
+<repository recommended="false"><name>openSUSE_12.2</name><summary>Official 12.2 openSUSE distribution</summary><description>This project builds the official 12.2 openSUSE distribution. Have a look at http://en.opensuse.org/Portal:12.2 for more details.</description><url>http://download.opensuse.org/distribution/12.2/repo/oss/</url></repository>
+openSUSE_12.3
+<repository recommended="false"><name>openSUSE_12.3</name><summary>Official 12.3 openSUSE distribution</summary><description>This project builds the official 12.3 openSUSE distribution. Have a look at http://en.opensuse.org/Portal:12.3 for more details.</description><url>http://download.opensuse.org/distribution/12.3/repo/oss/</url></repository>
+openSUSE_13.1
+<repository recommended="false"><name>openSUSE_13.1</name><summary>Official 13.1 openSUSE distribution</summary><description>This project builds the official 13.1 openSUSE distribution. Have a look at http://en.opensuse.org/Portal:13.1 for more details.</description><url>http://download.opensuse.org/distribution/13.1/repo/oss/</url></repository>
+openSUSE_13.2
+<repository recommended="false"><name>openSUSE_13.2</name><summary>Official 13.2 openSUSE distribution</summary><description>This project builds the official 13.2 openSUSE distribution. Have a look at http://en.opensuse.org/Portal:13.2 for more details.</description><url>http://download.opensuse.org/distribution/13.2/repo/oss/</url></repository>
+openSUSE_Factory
+<repository recommended="false"><name>openSUSE_Factory</name><summary>The next openSUSE distribution</summary><description>Our bleeding edge distribution. This will become the next official openSUSE distribution, Alpha and Beta versions are mastered from this distribution. Have a look at http://en.opensuse.org/Portal:Factory for more details.</description><url>http://download.opensuse.org/repositories/openSUSE:/Factory/snapshot/</url></repository>
+openSUSE_Tumbleweed
+<repository recommended="false"><name>openSUSE_Tumbleweed</name><summary>Tumbleweed</summary><description>Tumbleweed is the openSUSE Rolling Release This OBS Project only exists so people can build against it to get nice repositories with 'Tumbleweed' in the name In reality, this OBS Project matches openSUSE:Factory snapshot.</description><url>http://download.opensuse.org/repositories/openSUSE:/Tumbleweed/standard/</url></repository><repository recommended="false"><name>openSUSE:Factory</name><summary>The next openSUSE distribution</summary><description>Our bleeding edge distribution. This will become the next official openSUSE distribution, Alpha and Beta versions are mastered from this distribution. Have a look at http://en.opensuse.org/Portal:Factory for more details.</description><url>"http://download.opensuse.org/repositories/openSUSE:/Factory/snapshot/"</url></repository>
+SLE_11_SP2
+<repository recommended="false"><name>SLE_11_SP2</name><summary>SUSE Linux Enterprise 11 SP2 base. To be used for SLES 11 SP2 and SLED 11 SP2 packages</summary><description>This repository contains the status of GA.</description><url>http://download.opensuse.org/repositories/SUSE:/SLE-11:/SP2/standard/</url></repository>
+SLE_11_SP3
+<repository recommended="false"><name>SLE_11_SP3</name><summary>SUSE Linux Enterprise 11 SP3 base. To be used for SLES 11 SP3 and SLED 11 SP3 packages</summary><description>This repository contains the status of GA.</description><url>http://download.opensuse.org/repositories/SUSE:/SLE-11:/SP3/standard/</url></repository>
+SLE_12
+<repository recommended="false"><name>SLE_12</name><summary>SUSE Linux Enterprise 12. To be used for building SLE 12 packages</summary><description>This repository contains the status of the gold master.</description><url>http://download.opensuse.org/repositories/SUSE:/SLE-12:/GA/standard/</url></repository>

@@ -1,0 +1,22 @@
+Archive: Ubuntu_19.04
+Codename: Ubuntu_19.04
+Architectures: amd64
+Date: Sat Mar 21 18:03:01 2020
+Description: The ownCloud client repo (Ubuntu_19.04)
+MD5Sum:
+ 3ca48f0e00b9c23b95791a3bbc8b65d8 65196 Packages
+ 7aeef3e21172b48e4c03f80fdfaffda4 19803 Packages.gz
+ b5dd1f54657ac377ccc48cdc06930222 3869 Sources
+ 594da605f08d79a75dcdcef3020bd851 1375 Sources.gz
+SHA1:
+ 47961f2be203da2830f41dec1a897e473e8a61a0 65196 Packages
+ 5c97ebd9be82be74ab8d9f94a202a6aeae5c03f8 19803 Packages.gz
+ 165b51810f8da8f198c7404bf1a4b4ae9e6a33d3 3869 Sources
+ bbf677b7b9e1d318ca9463ff7a2100463663f9e8 1375 Sources.gz
+SHA256:
+ b6d5b64ba305772ffdad79e80a07b2b66b023464b024889db98bc206842f9d65 65196 Packages
+ b9adb23fd977fa2f636575442f3d6c0a9807048524943165f194c6f0b66e9ca7 19803 Packages.gz
+ a0552949481d6cfeae8713dbc9cb2c88dd329f487672f9e05306ebe5a2578430 3869 Sources
+ 8682c5e8a6bf1047606f70db44471e79ea5dd96c667e142457d33c0e76689f23 1375 Sources.gz
+Label: ownbrander:Qt5121:openuptwou
+Origin: obs://s2.owncloud.com/ownbrander:Qt5121:openuptwou/Ubuntu_19.04

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo" xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+  <revision>1584823609</revision>
+  <tags>
+    <repo>obsrepository://s2.owncloud.com/ownbrander:Qt5121:openuptwou/CentOS_6</repo>
+    <repo>obsbuildid:1584815421</repo>
+  </tags>
+  <data type="primary">
+    <checksum type="sha">a7a3a64c34694d29d20b53fb419a1d708c90cf5e</checksum>
+    <open-checksum type="sha">47d5675cee52ce8d80a9f6e4e63f3286b7df84a7</open-checksum>
+    <location href="repodata/primary.xml.gz"/>
+    <timestamp>1584823609</timestamp>
+    <size>26265</size>
+    <open-size>298222</open-size>
+  </data>
+  <data type="filelists">
+    <checksum type="sha">d48b64cc61c889b7a622be59baccaab3607a271b</checksum>
+    <open-checksum type="sha">7480b7bbbcde62424212b74ac9d77f55de821a29</open-checksum>
+    <location href="repodata/filelists.xml.gz"/>
+    <timestamp>1584823609</timestamp>
+    <size>367871</size>
+    <open-size>6986100</open-size>
+  </data>
+  <data type="other">
+    <checksum type="sha">e9a598858af5baf97a829855137a8b6d02fda915</checksum>
+    <open-checksum type="sha">0ac5607fc5f4f1026f60e359b5055910e3993b61</open-checksum>
+    <location href="repodata/other.xml.gz"/>
+    <timestamp>1584823609</timestamp>
+    <size>29782</size>
+    <open-size>519926</open-size>
+  </data>
+</repomd>

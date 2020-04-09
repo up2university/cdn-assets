@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo" xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+  <revision>1584823506</revision>
+  <tags>
+    <repo>obsrepository://s2.owncloud.com/ownbrander:Qt5121:openuptwou/openSUSE_Leap_42.3</repo>
+    <repo>obsbuildid:1584815011</repo>
+  </tags>
+  <data type="primary">
+    <checksum type="sha256">6a1397577b0c827e5428fba5c7b4d6707693b5878129a2c9dfdb0773f7fb2f50</checksum>
+    <open-checksum type="sha256">f79b7b1955997314d06c3cc245527a16b528efd72e77576c6496c1363d9c9bc6</open-checksum>
+    <location href="repodata/6a1397577b0c827e5428fba5c7b4d6707693b5878129a2c9dfdb0773f7fb2f50-primary.xml.gz"/>
+    <timestamp>1584823505</timestamp>
+    <size>17779</size>
+    <open-size>196027</open-size>
+  </data>
+  <data type="filelists">
+    <checksum type="sha256">8d8d84e50a4a2ba7b25aa468d3f2049a4a27c907c685e02fda1c4ec8b78a1bfb</checksum>
+    <open-checksum type="sha256">14e3fc687560951677a07212571b04702c472103fb1a5e4de64c53db3d9c1251</open-checksum>
+    <location href="repodata/8d8d84e50a4a2ba7b25aa468d3f2049a4a27c907c685e02fda1c4ec8b78a1bfb-filelists.xml.gz"/>
+    <timestamp>1584823505</timestamp>
+    <size>57703</size>
+    <open-size>782699</open-size>
+  </data>
+  <data type="other">
+    <checksum type="sha256">c4b95ab0439d6258213cd3191085a3589ad89972d6d9c5a727b45aa533babfbd</checksum>
+    <open-checksum type="sha256">950e3ae9a17f8f6641e98ea1c910d62a9ab6562f7bc66dfa251daf8098825be9</open-checksum>
+    <location href="repodata/c4b95ab0439d6258213cd3191085a3589ad89972d6d9c5a727b45aa533babfbd-other.xml.gz"/>
+    <timestamp>1584823506</timestamp>
+    <size>18560</size>
+    <open-size>418991</open-size>
+  </data>
+</repomd>
