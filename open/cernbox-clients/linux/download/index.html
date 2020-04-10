@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Caution when editing! This file can be updated by running repo-admin.py -- your edits are preserved. Please leave the comments with @@ tags intact. This is where repo-admin.py makes its updates.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <!-- @@packageName@@cdata[2] --><title>Install package openup2u-client</title><!---->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+
+    <link href="./assets/application.css" media="screen" rel="stylesheet" />
+    <link href="./assets/header-logo.png" rel="shortcut icon" />
+    <script src="./assets/application.js"></script>
+    <script src="./assets/global-navigation-data-en.js"></script>
+
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#CentOS_content").load("CentOS.html"); 
+      $("#Debian_content").load("Debian.html");
+      $("#Fedora_content").load("Fedora.html");
+      $("#OpenSUSE_content").load("openSUSE.html");
+      $("#SLE_content").load("SLE.html");
+      $("#Ubuntu_content").load("Ubuntu.html");
+      $("#RHEL_content").load("RHEL.html");
+      $("#SL_content").load("SL.html");
+      $("#SLE_ymp_content").load("ymp/SLE_ymp.html");
+      $("#OpenSUSE_ymp_content").load("ymp/openSUSE_ymp.html");
+      $("#Arch_content").load("Arch.html");
+      $("#Univention_content").load("Univention.html");
+      $("#Other_content").load("Other.html");
+    });
+    </script> 
+
+    <script type="text/javascript">
+      /* <![CDATA[ */
+
+  $(function() {
+
+  });
+  /* ]]> */
+    </script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      (function(){
+        var u=(("https:" == document.location.protocol) ? "https://beans.example.com/piwik/" : "http://beans.example.com/piwik/");
+        _paq.push(['setSiteId', 19]);
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['trackPageView']);
+        _paq.push([ 'setDomains', ["*.example.com"]]);
+        var d=document,
+        g=d.createElement('script'),
+        s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript';
+        g.defer=true;
+        g.async=true;
+        g.src=u+'piwik.js';
+        s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+
+  </head>
+  <body>
+
+    <div id="header">
+      <div id="header-content" class="container_12">
+        <a id="header-logo" href="https://owncloud.com">
+          <img alt="Header Logo" height="30" src="./assets/header-logo.png" width="50" />
+        </a>
+        <ul id="global-navigation">
+          <li id="item-downloads"><a href="https://owncloud.com">Downloads</a></li>
+          <li id="item-links"><a href="https://owncloud.com">More Links</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div id="content" class="container_12 content-wrapper">
+      <div class="grid_12 alpha">
+
+
+        <div class="box box-shadow">
+          <h2 class="box-header">
+            <span class="alignleft">Install package <!-- @@packageName@@ -->openup2u-client<!----></span>
+          </h2>
+          <div>
+            
+<script type="text/javascript">
+  var hidetext = '(hide)';
+  var showtext = '(show)';
+  $(function(){
+    $('.soo_button').click(function(){
+      $('.soo_line').show();
+      $('.soo_button').removeClass('soo_button_chosen');
+      $(this).addClass('soo_button_chosen');
+      $('.soo_distro').hide();
+      var distro = $(this).attr('id').replace('soo_button_','');
+      $('.soo_distro_' + distro).show();
+      // FIXME: do not advertise One Click install as long the keys do not work.
+      if (distro == 'XXX openSUSE' || distro == 'XXX SLE') {
+        $('#soo_ymp').show();
+        $('#soo_section_ymp').show();  $('#soo_section_toggle_ymp span').text(hidetext);
+        $('#soo_section_repo').hide(); $('#soo_section_toggle_repo span').text(showtext);
+        $('#soo_section_pkg').hide();  $('#soo_section_toggle_pkg span').text(showtext);
+      } else {
+        $('#soo_ymp').hide();
+        $('#soo_section_ymp').hide();  $('#soo_section_toggle_ymp span').text(showtext);
+        $('#soo_section_repo').show(); $('#soo_section_toggle_repo span').text(hidetext);
+        $('#soo_section_pkg').hide();  $('#soo_section_toggle_pkg span').text(showtext);
+      }
+    });
+
+    $('.soo_line').click(function(){
+      $('#' + $(this).attr('id').replace('toggle_', '')).toggle();
+      $(this).children('span').text($(this).children('span').text() == hidetext ? showtext : hidetext);
+    });
+
+    // try to detect distro via user agent
+    if (navigator.userAgent.indexOf('CentOS')     > 0 ) $('#soo_button_CentOS').click();
+    if (navigator.userAgent.indexOf('Debian')     > 0 ) $('#soo_button_Debian').click();
+    if (navigator.userAgent.indexOf('Fedora')     > 0 ) $('#soo_button_Fedora').click();
+    if (navigator.userAgent.indexOf('Mandriva')   > 0 ) $('#soo_button_Mandriva').click();
+    if (navigator.userAgent.indexOf('Mageia')     > 0 ) $('#soo_button_Mageia').click();
+    if (navigator.userAgent.indexOf('Red Hat')    > 0 ) $('#soo_button_RHEL').click();
+    if (navigator.userAgent.indexOf('Scientific') > 0 ) $('#soo_button_SL').click();
+    if (navigator.userAgent.indexOf('SUSE')       > 0 ) $('#soo_button_openSUSE').click();
+    if (navigator.userAgent.indexOf('Ubuntu')     > 0 ) $('#soo_button_Ubuntu').click();
+    if (navigator.userAgent.indexOf('Arch')       > 0 ) $('#soo_button_Arch').click();
+    if (navigator.userAgent.indexOf('Univention') > 0 ) $('#soo_button_Univention').click();
+    if (navigator.userAgent.indexOf('Other')      > 0 ) $('#soo_button_Other').click();
+  });
+</script>
+
+<!-- @@HideButtonsCSS@@ --><style type="text/css"> #soo_button_SL, #soo_button_SLE, #soo_button_Univention, #soo_button_RHEL, #soo_button_Arch, #soo_button_Other { display: none; } </style><!---->
+
+<style type="text/css">
+  body { 
+    background-color:#BBCEDB;
+    font: 0.8em "DejaVu Sans", "Bitstream Vera Sans", Verdana, sans-serif;
+    margin: 16px;
+    margin-top: 0px;
+    padding: 0;
+  }
+  #soo_pkg a {
+    color: #00f;
+
+  }
+  .soo_line {
+    color: #1D2D44;
+    clear: both;
+    border-bottom: 1px solid rgb(128,128,128);
+    border-bottom: 1px solid rgba(128,128,128,0.25);
+    padding-top: 10px;
+    font-size: 1.1em;
+    display: none;
+    cursor: pointer;
+  }
+  .soo_line span {
+    float: right;
+  }
+  .soo_line_visible {
+    display: block;
+  }
+  .soo_button {
+    display: block;
+    float: left;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 3px 5px;
+    margin: 0 .5em 0 1em;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+  }
+  .soo_button:hover, .soo_button_chosen {
+    border: 1px solid rgb(128,128,255);
+    border: 1px solid rgba(128,128,255,0.25);
+    background: rgb(128,128,255);
+    background: rgba(128,128,255,0.1);
+  }
+  .soo_button p {
+  
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+  }
+  .soo_ymplink {
+    color: white !important;
+    display: block;
+    margin: 6px;
+    line-height: 20px;
+    font-weight: bolder;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+      background: #BBCEDB;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BBCEDB), to(#4B5E6B));
+  background: -moz-linear-gradient(top,  #BBCEDB,  #4B5E6B);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#BBCEDB&#39;, endColorstr=&#39;#4B5E6B&#39;);
+    border: 1px solid #BBCEDB;
+    min-width: 112px;
+    font-size: 1em;
+  }
+  #soo_repo pre {
+    background: rgb(128,128,128);
+    background: rgba(128,128,128,0.1);
+    border: 1px dotted #808080;
+    padding: 4px;
+    margin-left: 2em;
+    font-size: 1.2em;
+    overflow-x: auto;
+  }
+  #soo_repo pre a {
+    text-decoration: none;
+    color: #008;
+  }
+  .soo_distro {
+    display: none;
+  }
+  #soo_pkg li {
+    margin: 6px;
+  }
+</style>
+
+
+
+  <div class="soo_box">
+    <p class="soo_line soo_line_visible">Select Your Operating System</p>
+    <div class="soo_flavour_line">
+        <div class="soo_button" id="soo_button_CentOS"    ><img src="./assets/centos.png" alt="CentOS" /><p>CentOS</p></div>
+        <div class="soo_button" id="soo_button_Debian"    ><img src="./assets/debian.png" alt="Debian" /><p>Debian</p></div>
+        <div class="soo_button" id="soo_button_Fedora"    ><img src="./assets/fedora.png" alt="Fedora" /><p>Fedora</p></div>
+        <div class="soo_button" id="soo_button_openSUSE"  ><img src="./assets/opensuse.png" alt="openSUSE" /><p>openSUSE</p></div>
+        <div class="soo_button" id="soo_button_SL"        ><img src="./assets/sl.png" alt="SL" /><p>SL</p></div>
+        <div class="soo_button" id="soo_button_SLE"       ><img src="./assets/sle.png" alt="SLE" /><p>SLE</p></div>
+        <div class="soo_button" id="soo_button_Ubuntu"    ><img src="./assets/ubuntu.png" alt="Ubuntu" /><p>Ubuntu</p></div>
+        <div class="soo_button" id="soo_button_RHEL"      ><img src="./assets/rhel.png" alt="RHEL" /><p>RHEL</p></div>
+        <div class="soo_button" id="soo_button_Arch"      ><img src="./assets/arch.png" alt="Arch" /><p>Arch</p></div>
+        <div class="soo_button" id="soo_button_Univention"><img src="./assets/univention.png" alt="Univention" /><p>Univention</p></div>
+        <div class="soo_button" id="soo_button_Other"     ><img src="./assets/unknown.png" alt="Other" /><p>Other</p></div>
+    </div>
+  </div>
+  <div style="clear: both" />
+
+<div id="soo_ymp" class="soo_box">
+  <p class="soo_line" id="soo_section_toggle_ymp">Install using One Click Install<span></span></p>
+  <div id="soo_section_ymp">
+      <div id="SLE_ymp_content"></div>
+      <div id="OpenSUSE_ymp_content"></div>
+  </div>
+</div>
+
+<div id="soo_repo" class="soo_box">
+  <p class="soo_line" id="soo_section_toggle_repo">Add repository and install manually<span></span></p>
+  <div id="soo_section_repo">      
+      <div id="CentOS_content"></div>
+      <div id="Debian_content"></div>
+      <div id="Fedora_content"></div>
+      <div id="SLE_content"></div>
+      <div id="OpenSUSE_content"></div>
+      <div id="SL_content"></div>
+      <div id="Ubuntu_content"></div>  
+      <div id="RHEL_content"></div>
+      <div id="Arch_content"></div>
+      <div id="Univention_content"></div>  
+      <div id="Other_content"></div>
+  </div>
+</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="container_12">
+      <div id="footer-content" class="grid_12">
+      </div>
+      <div id="footer-legal" class="border-top grid_12"> |
+        <a href="allplatforms.html">allplatforms.html</a> |
+        <a href="download.json">download.json</a> |
+        <a href="https://owncloud.com">About ownCloud</a> |
+      </div>
+    </div>
+
+  </body>
+</html>
+

@@ -1,0 +1,138 @@
+{
+  "CentOS_6": {
+    "flavor": "CentOS", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_6/CentOS_6/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_6"
+  }, 
+  "CentOS_7": {
+    "flavor": "CentOS", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_7/CentOS_7/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_7"
+  }, 
+  "Debian_10": {
+    "flavor": "Debian", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_10/Debian_10/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_10"
+  }, 
+  "Debian_8.0": {
+    "flavor": "Debian", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_8.0/Debian_8.0/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_8.0"
+  }, 
+  "Debian_9.0": {
+    "flavor": "Debian", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_9.0/Debian_9.0/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Debian_9.0"
+  }, 
+  "Fedora_27": {
+    "flavor": "Fedora", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_27/Fedora_27/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_27"
+  }, 
+  "Fedora_28": {
+    "flavor": "Fedora", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_28/Fedora_28/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_28"
+  }, 
+  "Fedora_29": {
+    "flavor": "Fedora", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_29/Fedora_29/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_29"
+  }, 
+  "Fedora_30": {
+    "flavor": "Fedora", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_30/Fedora_30/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_30"
+  }, 
+  "Fedora_31": {
+    "flavor": "Fedora", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_31/Fedora_31/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Fedora_31"
+  }, 
+  "Linux_Mint_19": {
+    "flavor": "Linux", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Linux_Mint_19/Linux_Mint_19/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Linux_Mint_19"
+  }, 
+  "Ubuntu_16.04": {
+    "flavor": "Ubuntu", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_16.04/Ubuntu_16.04/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_16.04"
+  }, 
+  "Ubuntu_18.04": {
+    "flavor": "Ubuntu", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_18.04/Ubuntu_18.04/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_18.04"
+  }, 
+  "Ubuntu_18.10": {
+    "flavor": "Ubuntu", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_18.10/Ubuntu_18.10/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_18.10"
+  }, 
+  "Ubuntu_19.04": {
+    "flavor": "Ubuntu", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_19.04/Ubuntu_19.04/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_19.04"
+  }, 
+  "Ubuntu_19.10": {
+    "flavor": "Ubuntu", 
+    "packages": {
+      "openup2u-client_2.5.4+oc-2761_amd64.deb": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_19.10/Ubuntu_19.10/amd64/openup2u-client_2.5.4+oc-2761_amd64.deb"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/Ubuntu_19.10"
+  }, 
+  "openSUSE_Leap_15.0": {
+    "flavor": "openSUSE", 
+    "packages": {
+      "openup2u-client-2.5.4-lp150.2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.0/openSUSE_Leap_15.0/x86_64/openup2u-client-2.5.4-lp150.2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.0", 
+    "ymp": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.0/openup2u-client.ymp"
+  }, 
+  "openSUSE_Leap_15.1": {
+    "flavor": "openSUSE", 
+    "packages": {
+      "openup2u-client-2.5.4-lp151.2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1/openSUSE_Leap_15.1/x86_64/openup2u-client-2.5.4-lp151.2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1", 
+    "ymp": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1/openup2u-client.ymp"
+  }, 
+  "openSUSE_Leap_42.3": {
+    "flavor": "openSUSE", 
+    "packages": {
+      "openup2u-client-2.5.4-2762.1.x86_64.rpm": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_42.3/openSUSE_Leap_42.3/x86_64/openup2u-client-2.5.4-2762.1.x86_64.rpm"
+    }, 
+    "repo": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_42.3", 
+    "ymp": "https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_42.3/openup2u-client.ymp"
+  }
+}

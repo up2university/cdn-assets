@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo" xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+  <revision>1584823788</revision>
+  <tags>
+    <repo>obsrepository://s2.owncloud.com/ownbrander:Qt5121:openuptwou/Fedora_28</repo>
+    <repo>obsbuildid:1584815418</repo>
+  </tags>
+  <data type="primary">
+    <checksum type="sha256">e182d373368acb9dc144524ddb96d6b8642b273a9dabc3eede82985ddde67ca1</checksum>
+    <open-checksum type="sha256">27a440bfc2b30149594f03a9931cdea696ab24d5fbbbc5fcc1ceb51a26b0e4ad</open-checksum>
+    <location href="repodata/e182d373368acb9dc144524ddb96d6b8642b273a9dabc3eede82985ddde67ca1-primary.xml.gz"/>
+    <timestamp>1584823788</timestamp>
+    <size>31697</size>
+    <open-size>299483</open-size>
+  </data>
+  <data type="filelists">
+    <checksum type="sha256">78a7bb26ab97f376158e44560ef1f9bc7bb1d4a55aa659c8b25779a948022a62</checksum>
+    <open-checksum type="sha256">50cc68897cbfde0e835accaae037790d54a2e9559e1e050a1244d2d31ef085d4</open-checksum>
+    <location href="repodata/78a7bb26ab97f376158e44560ef1f9bc7bb1d4a55aa659c8b25779a948022a62-filelists.xml.gz"/>
+    <timestamp>1584823788</timestamp>
+    <size>126416</size>
+    <open-size>1865298</open-size>
+  </data>
+  <data type="other">
+    <checksum type="sha256">f2cd0516c253da8ff1d86177298a5c360ecdb8fbb0ff80c7d4f655bf8c7ec917</checksum>
+    <open-checksum type="sha256">93818f6809cfb1f993ac690480aada599c78962bec43272fe4cdecd796c98967</open-checksum>
+    <location href="repodata/f2cd0516c253da8ff1d86177298a5c360ecdb8fbb0ff80c7d4f655bf8c7ec917-other.xml.gz"/>
+    <timestamp>1584823788</timestamp>
+    <size>15484</size>
+    <open-size>519279</open-size>
+  </data>
+</repomd>

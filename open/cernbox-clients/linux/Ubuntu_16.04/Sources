@@ -1,0 +1,77 @@
+Format: 1.0
+Package: openup2u-client-overlays-dolphin
+Binary: openup2u-client-dolphin
+Architecture: any
+Version: 2.5.4+oc-2761
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake,
+    extra-cmake-modules,
+    kio-dev|libkf5kio-dev,
+    libfam0,
+    qtbase5-dev
+Directory: .
+Checksums-Sha1:
+ d9fffbcc72e6a7dd2cad8a9e88c71fbfe7453539 1081 openup2u-client-overlays-dolphin_2.5.4+oc-2761.dsc
+ 357f350cde82c3be784ae84c2ca2cab429f7fc56 15304354 openup2u-client-overlays-dolphin_2.5.4+oc.orig.tar.gz
+ 3c707b9977578a700f42f15700276c1db464786e 3442 openup2u-client-overlays-dolphin_2.5.4+oc-2761.diff.gz
+Checksums-Sha256:
+ 5b5d359395cf256bbbc4de5cb913bd2d01ababed250ae4436fbe5305ca5d7ef4 1081 openup2u-client-overlays-dolphin_2.5.4+oc-2761.dsc
+ 7180056581bd5cb90cf81c4901c14033d564e6bce8cbee0cd27da5ee3817956c 15304354 openup2u-client-overlays-dolphin_2.5.4+oc.orig.tar.gz
+ 8a5e2cf3e86dcf6bf672530fb5ddc9cfcfeb41addf93a2f2e078fff566a11282 3442 openup2u-client-overlays-dolphin_2.5.4+oc-2761.diff.gz
+Files:
+ 8a99ad1f0b7deda157698cbb807c0e1d 1081 openup2u-client-overlays-dolphin_2.5.4+oc-2761.dsc
+ 20b4a1555198f26e0fc3d2c48cd2caa6 15304354 openup2u-client-overlays-dolphin_2.5.4+oc.orig.tar.gz
+ 7890d4789aff2745f77edb15d9fe46c0 3442 openup2u-client-overlays-dolphin_2.5.4+oc-2761.diff.gz
+
+Format: 1.0
+Package: openup2u-client-overlays
+Binary: openup2u-client-overlays
+Architecture: any
+Version: 2.5.4+oc-2761
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake
+Directory: .
+Checksums-Sha1:
+ 2aed31a0dcf5ac147c18a13c05887462574bfe98 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ 9d6ea1c4916364cf43c7890bcf59d0319ca59d53 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ 04be297b2e223a46de29010c99400dc1c11a7004 3263 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+Checksums-Sha256:
+ 049845f41ec1949857fe8cff6c4a7aa055c36a1387c1f1e9018bed87bf422082 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ d6581f13b182b7659f25988c3a653fca9426b8b0871480fbff7148bc10409126 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ f6c83aa73f9e8de19690093f2f9c13464b88626f22bb80ffa3b8dc99b6d224ef 3263 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+Files:
+ ca088f25b53bd5a77d2f60faf3032f27 944 openup2u-client-overlays_2.5.4+oc-2761.dsc
+ 708d6d5abc79577c2f458ee8bbed1505 15304354 openup2u-client-overlays_2.5.4+oc.orig.tar.gz
+ 6cf106ba6ad0fbd29039b56042cf5fd0 3263 openup2u-client-overlays_2.5.4+oc-2761.diff.gz
+
+Format: 1.0
+Package: openup2u-client
+Binary: openup2u-client
+Architecture: any
+Version: 2.5.4+oc-2761
+Maintainer: Jürgen Weigert <jw@owncloud.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake, sed, doxygen, unzip | bash,
+ libsqlite3-dev, python-sphinx | python3-sphinx, libssl-dev (>= 1.0.0), zlib1g-dev,
+ ocqt5121-qt5-qmake,
+ ocqt5121-qttools5-dev-tools,
+ ocqt5121-qtbase5-dev,
+ ocqt5121-qt5keychain-dev (>= 0.7.0),
+ ocqt5121-libqt5webkit5-dev (>= 2.2.0),
+ ocqt5121-qtsvg5
+Directory: .
+Checksums-Sha1:
+ 0c4d5f95c0a2c1c6aa3340bc0ae6725c5e55166a 1320 openup2u-client_2.5.4+oc-2761.dsc
+ 07643ece9e958208e6b67462cefb21ae62e8642f 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ 8bde60964290c1a64f5b93d5834e1b3fa7860cd2 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+Checksums-Sha256:
+ bebb67b504173432b8f5f73be6a525a914455335a667d86847cb84b361ae7ad2 1320 openup2u-client_2.5.4+oc-2761.dsc
+ 4f7b87fe76270e68e33311767cb5dc1441f5c477102a411b75bd3c3c7c2919fc 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ 580995d95e23ed15dba550565e61e0c3f98fe9c1f66a24dd518605695d8f14a5 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+Files:
+ c9de43fccdb913fe96eadb26b66c173d 1320 openup2u-client_2.5.4+oc-2761.dsc
+ 44717920bae7f8761800c8a8d50949a8 15304354 openup2u-client_2.5.4+oc.orig.tar.gz
+ c4eada0d6de916a76b4e758be84836cc 5615 openup2u-client_2.5.4+oc-2761.diff.gz
+

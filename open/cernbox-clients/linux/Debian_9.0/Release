@@ -1,0 +1,22 @@
+Archive: Debian_9.0
+Codename: Debian_9.0
+Architectures: amd64
+Date: Sat Mar 21 18:03:01 2020
+Description: The ownCloud client repo (Debian_9.0)
+MD5Sum:
+ a49ba9233c84b98a2fbff84c3df0a1c6 63798 Packages
+ 37620a9a39d5ee92593a0b80e906a47e 18555 Packages.gz
+ ff5318eeaca5326a484f152e997d95ae 3869 Sources
+ 30925a18dfc8cd89dc783c8a3ef69fe9 1370 Sources.gz
+SHA1:
+ ad1ec0c84c3b3a573261f5eca6abbafd8d73c015 63798 Packages
+ f38911530bd4b7e407da733d7e0e53613a0c6250 18555 Packages.gz
+ 913cb81a4b7a53dbe5aad279d2e052aea9ab8bc1 3869 Sources
+ 190cc464a99b3538d901fcee60e3adb1e2bdafc2 1370 Sources.gz
+SHA256:
+ 70c0c0d6390b83dbacb41c65a87607b4546cdff827900665504e8016c427315a 63798 Packages
+ 567c97bfd110cf03f7b26698736000079b3e02dc1277ba12cbce9b275374bd6b 18555 Packages.gz
+ 9a3041f36d5fa3f9d503dae21b4d227d2545cd815c578b3932eef48f80aed4b4 3869 Sources
+ 3027435c6f8570536db9716e47a099115c18cb7f233285fb3dec5855b66f8e42 1370 Sources.gz
+Label: ownbrander:Qt5121:openuptwou
+Origin: obs://s2.owncloud.com/ownbrander:Qt5121:openuptwou/Debian_9.0

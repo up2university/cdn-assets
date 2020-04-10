@@ -1,0 +1,7 @@
+[ownbrander_Qt5121_openuptwou]
+name=The ownCloud client repo (CentOS_6)
+type=rpm-md
+baseurl=https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_6
+gpgcheck=1
+gpgkey=https://cdn.test.up2university.eu/open/cernbox-clients/linux/CentOS_6/repodata/repomd.xml.key
+enabled=1

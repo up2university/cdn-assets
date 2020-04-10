@@ -1,0 +1,21 @@
+<metapackage xmlns:os="http://opensuse.org/Standards/One_Click_Install" xmlns="http://opensuse.org/Standards/One_Click_Install">
+  <group>
+    <repositories>
+
+      <repository recommended="true">
+        <name>openup2u-client for openSUSE_Leap_15.1</name>
+        <summary>openup2u-client for openSUSE_Leap_15.1</summary>
+        <description>This repository includes dependencies for openup2u-client maintained by ownCloud.</description>
+        <url>https://cdn.test.up2university.eu/open/cernbox-clients/linux/openSUSE_Leap_15.1/</url>
+      </repository>
+
+    </repositories>
+    <software>
+      <item>
+        <name>openup2u-client</name>
+        <summary>openup2u-client-2.5.4-lp151.2762</summary>
+        <description></description>
+      </item>
+    </software>
+  </group>
+</metapackage>

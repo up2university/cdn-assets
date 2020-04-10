@@ -1,0 +1,22 @@
+Archive: Ubuntu_16.04
+Codename: Ubuntu_16.04
+Architectures: amd64
+Date: Sat Mar 21 18:03:01 2020
+Description: The ownCloud client repo (Ubuntu_16.04)
+MD5Sum:
+ 1d9c1cb55d5008bc0a99577b589afadd 63095 Packages
+ a60ab16465ce126cf3f98169bb2e2883 18520 Packages.gz
+ abf1a26e9bc5930a4d5e4719da76d99a 3869 Sources
+ 93d7e15aaa1fd0058bd80bceae0aa40b 1373 Sources.gz
+SHA1:
+ e53b7b42e1f43e3d241d8717ce2bb2d061666044 63095 Packages
+ a53cc94819cb877e2f4b4ea1092b627b5d875303 18520 Packages.gz
+ bd6da57beac990c9852f685a96e4f6d0ede25ff0 3869 Sources
+ 7cb6725e05031a27142156d6575b01b9096d7a93 1373 Sources.gz
+SHA256:
+ f65a0861a9e6250c1086e375978d1d0f9a0f1585aa6d3ee5eacfa65291ed2343 63095 Packages
+ 258c0bd18516a789508b966bd22367ad0ea33b711b1581ea248e3f8b1344f4fc 18520 Packages.gz
+ b67c7da520932f94126ad5f2512d66492ab4823870a7d7c5e4f354d32d391ace 3869 Sources
+ 80f0e443efbdf400b76450029b5ca4ec9c125ce43da8306ff9a67bba970e681c 1373 Sources.gz
+Label: ownbrander:Qt5121:openuptwou
+Origin: obs://s2.owncloud.com/ownbrander:Qt5121:openuptwou/Ubuntu_16.04
