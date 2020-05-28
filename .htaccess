@@ -1,11 +1,12 @@
+Options -Indexes
 RewriteEngine On
 
 # handle the Greek privacy notice under an additional URL
-RewriteRule ^docs/privacy-notice-el.pdf$ https://cdn.test.up2university.eu/docs/privacy-notice-gr.pdf [L,R=301]
+RewriteRule ^docs/privacy-notice-el.pdf$ /docs/privacy-notice-gr.pdf [L,R=301]
 
 # redirect non-existing translations of the privacy notice to the English version
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^docs/privacy-notice-[a-z]+.pdf$ https://cdn.test.up2university.eu/docs/privacy-notice.pdf [L,R=302]
+RewriteRule ^docs/privacy-notice-[a-z]+.pdf$ /docs/privacy-notice.pdf [L,R=302]
 
 # serve open-Up2U fair-use-policy.pdf also as terms.pdf
 RewriteCond %{REQUEST_FILENAME} !-f
